@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <g id="Filter_alt">
+    <path id="Vector 7" d="M16 9.33334L26.6667 9.33334" stroke="#33363F" stroke-width="2" stroke-linecap="round"></path>
+    <path id="Vector 8" d="M5.33301 9.33334L10.6663 9.33334" stroke="#33363F" stroke-width="2" stroke-linecap="round"></path>
+    <path id="Vector 11" d="M22.667 22.6667L26.667 22.6667" stroke="#33363F" stroke-width="2" stroke-linecap="round"></path>
+    <path id="Vector 12" d="M5.33301 22.6667L15.9997 22.6667" stroke="#33363F" stroke-width="2" stroke-linecap="round"></path>
+    <ellipse id="Ellipse 36" cx="13.3333" cy="9.33332" rx="2.66667" ry="2.66667" transform="rotate(90 13.3333 9.33332)" stroke="#33363F" stroke-width="2" stroke-linecap="round"></ellipse>
+    <ellipse id="Ellipse 37" cx="20.0003" cy="22.6667" rx="2.66667" ry="2.66667" transform="rotate(90 20.0003 22.6667)" stroke="#33363F" stroke-width="2" stroke-linecap="round"></ellipse>
+  </g>
+</svg>

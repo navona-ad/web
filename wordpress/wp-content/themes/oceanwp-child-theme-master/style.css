@@ -1,0 +1,382 @@
+/*
+Theme Name: OceanWP Child Theme
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme. Sample child theme.
+Author: OceanWP
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+:root {
+    --Main-color: linear-gradient(90deg, #7461FD 0%, #37E2E7 100%);
+}
+a:focus {
+    outline: none !important;
+}
+
+.main-menu-primary ul:not(.sub-menu) > li > a.elementor-item-active,
+.main-menu-primary ul:not(.sub-menu) > li.current-menu-parent > a,
+.main-menu-primary ul:not(.sub-menu) > li > a.highlighted,
+.main-menu-primary ul:not(.sub-menu) > li > a:hover,
+.btn-border-lg .elementor-button{
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: var(--Main-color, #7461FD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-border-lg .elementor-button{
+    border-radius: 8px;
+    -webkit-text-fill-color: #fff;
+}
+.box-job:hover{
+    position: relative;
+    background: var(--Main-color, #7461FD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-radius: 12px;
+    -webkit-text-fill-color: initial;
+}
+.main-menu-primary ul:not(.sub-menu) > li > a.elementor-item-active::before,
+.main-menu-primary ul:not(.sub-menu) > li.current-menu-parent > a::before,
+.main-menu-primary ul:not(.sub-menu) > li > a.highlighted::before,
+.main-menu-primary ul:not(.sub-menu) > li > a:hover::before,
+.btn-border-lg .elementor-button::before,
+.box-job:hover::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1.5px;
+    border-radius: 4px;
+    background: var(--Main-color, #7461FD);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    height: 100%;
+    opacity: 1 !important;
+}
+.btn-border-lg .elementor-button::before{
+    border-radius: 8px;
+}
+.box-job:hover::before{
+    border-radius: 12px;
+}
+.main-menu-primary ul.sub-menu{
+    min-width: 175px !important;
+}
+.main-menu-primary ul.sub-menu li{
+    border-bottom: 1px solid #DCDCDC !important;
+}
+.main-menu-primary ul.sub-menu li:last-child{
+    border-bottom: none !important;
+}
+.main-menu-primary ul.sub-menu li a.elementor-item-active,
+.main-menu-primary ul.sub-menu li a:hover{
+    background: var(--Main-color);
+    border-left: none !important;
+}
+.box-img-custom{
+    height: 360px;
+}
+.box-img-custom:hover {
+    cursor: pointer;
+    border-bottom: 8px solid;
+    border-image: linear-gradient(90deg, #7461FD 0%, #37E2E7 100%) 1;
+}
+.elementor-field-type-submit .elementor-button{
+    background: var(--Main-color, #7461FD) !important;
+}
+.section-3-uney::before{
+    background-blend-mode: hard-light, normal !important;
+}
+.header-company2{
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, #7461FD 0%, #37E2E7 100%) 1;
+}
+.backdrop-filter-8{
+    backdrop-filter: blur(8px);
+}
+.backdrop-filter-10{
+    backdrop-filter: blur(10px);
+}
+.page-company-3{
+    background-blend-mode: screen, normal, multiply, normal !important;
+}
+.tab-privacy .e-n-tab-title-text{
+    display: block !important;
+}
+.tab-privacy .e-n-tab-title-text .eng-sub{
+    color: #909090;
+}
+.tab-privacy .e-n-tab-title[aria-selected="true"] .eng-sub,
+.tab-privacy .e-n-tab-title:hover .eng-sub{
+    color: #E1E1E1;
+}
+.list-flex .elementor-loop-container,
+.list-popular .elementor-loop-container{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.list-flex .e-loop-item{
+    width: calc(33.33% - 14px);
+}
+.list-flex .e-loop-item > .elementor-element,
+.list-popular .e-loop-item > .elementor-element{
+    --width: auto !important;
+}
+.list-popular .e-loop-item{
+    width: 100%;
+}
+.box-telent:hover .area-text{
+    background: var(--Main-color, #7461FD);
+}
+.box-telent:hover .area-text .title-job .elementor-heading-title{
+    color: #fff;
+}
+.box-telent:hover .area-text .intro-job .elementor-heading-title{
+    color: #F0F0F0;
+}
+.social-share{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+}
+.social-share img{
+    width: 20px;
+}
+.job-info-detail .elementor-post-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.job-info-detail .elementor-post-info li{
+    border-radius: 5px;
+    background: #E5F3FF;
+    box-shadow: 0px 0.5px 1.6px 0px rgba(255, 255, 255, 0.50) inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 5px 20px;
+}
+.d-flex{
+    display: flex;
+}
+.filter_area_content .elementor-shortcode{
+    height: 100%;
+}
+.filter-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.filter-area .search-area{
+    align-items: center;
+    gap: 16px;
+}
+.filter-area .search-area img,
+.filter-area .filter-location-area img{
+    width: 36px;
+}
+.filter-area .filter-location-area{
+    align-items: center;
+    gap: 16px;
+    padding-left: 60px;
+    border-left: 1px solid #909090;
+}
+.filter-area input, .filter-area select{
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #909090;
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+.filter-area .submit-filter{
+    width: 164px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Main-color, linear-gradient(90deg, #7461FD 0%, #37E2E7 100%));
+    font-family: "Inter", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+}
+.post-type-archive-jobs .search-area{
+	width: calc(100% - 200px) !important;
+}
+.post-type-archive-jobs .search-area input{
+	width: 100% !important;
+}
+.list-filter-box .e-filter-item{
+    position: relative;
+    padding-left: 32px !important;
+}
+.list-filter-box .e-filter-item::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("../../uploads/2025/04/uncheck_round_fill.svg") no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+.list-filter-box .e-filter-item[aria-pressed="true"]::before{
+    background: url("../../uploads/2025/04/checked_round_fill.svg") no-repeat center center;
+}
+.list-filter{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.list-filter .filter-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: #E5F3FF;
+    box-shadow: 0px 0.5px 1.6px 0px rgba(255, 255, 255, 0.50) inset;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+.remove-filter{
+    font-size: 24px;
+    padding-bottom: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.elementor-button .elementor-button-text{
+    letter-spacing: normal !important;
+}
+@media (min-width: 1025px) {
+    .box-img-company .elementor-image-box-wrapper{
+        flex-flow: column !important;
+    }
+}
+@media (min-width: 768px) {
+    .box-filter-taxonomy{
+        display: flex !important;
+    }
+}
+@media (max-width: 1024px) {
+    .list-flex .e-loop-item{
+        width: calc(50% - 10px);
+    }
+    .filter-area input, .filter-area select{
+        width: 200px;
+        font-size: 16px;
+    }
+    .filter-area .filter-location-area{
+        padding-left: 30px;
+        gap: 8px;
+    }
+    .filter-area .search-area{
+        gap: 8px;
+    }
+    .filter-area .submit-filter{
+        width: 120px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+@media (max-width: 767px) {
+	.main-menu-primary ul:not(.sub-menu) > li > a.elementor-item-active, 
+	.main-menu-primary ul:not(.sub-menu) > li.current-menu-parent > a, 
+	.main-menu-primary ul:not(.sub-menu) > li > a.highlighted, 
+	.main-menu-primary ul:not(.sub-menu) > li > a:hover, 
+	.btn-border-lg .elementor-button{
+		background: var(--Main-color) !important;
+		border: none !important;
+		color: #fff !important;
+		-webkit-text-fill-color: unset !important;
+	}
+    .box-img-custom{
+        height: 240px;
+    }
+    .display-webkit-box{
+        display: -webkit-box !important;
+        overflow-x: auto !important;
+    }
+    .list-flex .e-loop-item{
+        width: 100%;
+    }
+    .filter-box{
+        background-color: transparent !important;
+        border-radius: none !important;
+        box-shadow: none !important;
+    }
+    .filter-area{
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .filter-area .search-area,
+    .filter-area .filter-location-area,
+    .filter-area .submit-filter{
+        width: 100% !important;
+        height: 52px;
+        gap: 16px;
+        padding: 0px 16px !important;
+    }
+    .filter-area .filter-location-area,
+    .filter-area .search-area{
+        border: none !important;
+        padding-left: 0px;
+        gap: 16px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 5px 7px 16px 2px rgba(0, 0, 0, 0.10);
+    }
+	.post-type-archive-jobs .search-area{
+		width: 100% !important;
+	}
+    .filter-area input, .filter-area select{
+        width: 100%;
+        font-size: 16px;
+        padding-left: 0;
+    }
+    .box-filter-taxonomy{
+        display: none !important;
+        overflow: hidden;
+        max-height: 0;
+        height: 0;
+        transition: max-height 0.5s ease, height 0.5s ease;
+    }
+    .icon-expand-down {
+        transition: transform 0.5s ease;
+    }
+    .title-filter-mobile.active .icon-expand-down {
+        transform: rotate(180deg);
+    }
+    .box-filter-taxonomy.show{
+        display: flex !important;
+        height: fit-content;
+        max-height: 1000px;
+    }
+    .job-info-detail .elementor-post-info li{
+        height: 28px;
+        padding: 4px 12px;
+    }
+}

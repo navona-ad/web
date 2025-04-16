@@ -1,0 +1,1134 @@
+# Translation of Plugins - All-in-One WP Migration and Backup - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - All-in-One WP Migration and Backup - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-01 12:55:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - All-in-One WP Migration and Backup - Stable (latest release)\n"
+
+#. translators: Url
+#: lib/view/import/avada.php:51
+msgid "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Bảo vệ trang web của bạn với tính năng bảo vệ chống đe dọa thời gian thực</a>"
+
+#: lib/view/main/multisite-notice.php:36
+msgid "WordPress Multisite requires our All-in-One WP Migration Multisite Extension. Get it here: "
+msgstr "WordPress Multisite yêu cầu tiện ích mở rộng All-in-One WP Migration Multisite của chúng tôi. Tải xuống tại đây: "
+
+#. translators: Backups folder path.
+#. translators: Storage folder path.
+#: lib/view/main/backups-path-notice.php:39
+#: lib/view/main/storage-path-notice.php:39
+msgid "Could not create <strong>%s</strong> folder. Please ensure the parent folder has read/write/execute permissions (0777)."
+msgstr "Không thể tạo thư mục <strong>%s</strong>. Vui lòng đảm bảo thư mục cha có quyền đọc/viết/thực thi (0777)."
+
+#. translators: File name.
+#: lib/view/main/backups-htaccess-notice.php:39
+#: lib/view/main/backups-index-html-notice.php:39
+#: lib/view/main/backups-index-php-notice.php:39
+#: lib/view/main/backups-robots-txt-notice.php:39
+#: lib/view/main/backups-webconfig-notice.php:39
+#: lib/view/main/storage-index-html-notice.php:39
+#: lib/view/main/storage-index-php-notice.php:39
+#: lib/view/main/wordpress-htaccess-notice.php:39
+msgid "Could not create <strong>%s</strong> file. Please ensure the parent folder has read/write permissions."
+msgstr "Không thể tạo file <strong>%s</strong>. Vui lòng đảm bảo thư mục cha có quyền đọc/viết."
+
+#. translators: Url
+#: lib/view/import/pro.php:38
+msgid "Your host restricts uploads to <strong>%s</strong>."
+msgstr "Máy chủ của bạn hạn chế tải lên với <strong>%s</strong>."
+
+#: lib/view/import/avada.php:47
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Đánh giá trải nghiệm di chuyển của bạn</a>.<br />"
+
+#. translators: Url
+#: lib/view/import/avada.php:37
+msgid "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Save permalinks structure</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Lưu cấu trúc đường dẫn</a>.<br />"
+
+#: lib/view/export/help-section.php:38
+msgid "Hints"
+msgstr "Gợi ý"
+
+#: lib/view/export/help-section.php:34
+msgid "Use this screen to export your database, media, themes, and plugins into one .wpress file. Later, import that file to another WordPress site."
+msgstr "Sử dụng màn hình này để xuất cơ sở dữ liệu, phương tiện, chủ đề và plugin của bạn vào một tệp .wpress. Sau đó, nhập tệp đó vào một trang web WordPress khác."
+
+#: lib/view/export/find-replace.php:37 lib/view/export/find-replace.php:46
+msgid "Search for"
+msgstr "Tìm kiếm cho"
+
+#: lib/view/export/export-buttons.php:37
+msgid "Export Site To"
+msgstr "Xuất trang web sang"
+
+#: lib/view/export/advanced-settings.php:117
+msgid "Exclude database (sql)"
+msgstr "Loại trừ cơ sở dữ liệu (sql)"
+
+#: lib/view/export/advanced-settings.php:106
+msgid "Exclude plugins (files)"
+msgstr "Loại trừ plugin (tệp)"
+
+#: lib/view/export/advanced-settings.php:99
+msgid "Exclude must-use plugins (files)"
+msgstr "Loại trừ plugin bắt buộc (tệp)"
+
+#: lib/view/export/advanced-settings.php:90
+msgid "Exclude themes (files)"
+msgstr "Loại trừ chủ đề (tệp)"
+
+#: lib/view/export/advanced-settings.php:84
+msgid "Exclude media library (files)"
+msgstr "Loại trừ thư viện phương tiện (tệp)"
+
+#: lib/view/export/advanced-settings.php:78
+msgid "Exclude post revisions"
+msgstr "Loại trừ bản sửa đổi bài viết"
+
+#: lib/view/export/advanced-settings.php:72
+msgid "Exclude spam comments"
+msgstr "Loại trừ bình luận spam"
+
+#: lib/view/common/leave-feedback.php:64
+msgid "I agree to let All-in-One WP Migration use my <strong>email</strong> to respond to my request. <a href=\"https://www.iubenda.com/privacy-policy/946881\" target=\"_blank\">Privacy policy</a>"
+msgstr "Tôi đồng ý cho All-in-One WP Migration sử dụng <strong>email</strong> của tôi để phản hồi yêu cầu của tôi. <a href=\"https://www.iubenda.com/privacy-policy/946881\" target=\"_blank\">Chính sách Bảo mật</a>"
+
+#: lib/view/common/leave-feedback.php:59
+msgid "Describe your issue or feedback..."
+msgstr "Mô tả vấn đề hoặc phản hồi của bạn..."
+
+#: lib/view/common/leave-feedback.php:56
+msgid "Email address"
+msgstr "Địa chỉ email"
+
+#: lib/view/common/leave-feedback.php:49
+msgid "I need help"
+msgstr "Tôi cần hỗ trợ"
+
+#: lib/view/common/leave-feedback.php:40
+msgid "I have an idea"
+msgstr "Tôi có một ý tưởng"
+
+#: lib/view/backups/index.php:54
+msgid "No backups found. Create a new one?"
+msgstr "Không tìm thấy bản sao lưu. Tạo bản sao lưu mới?"
+
+#: lib/view/backups/backups-list.php:90
+msgid "Over 2GB"
+msgstr "Trên 2GB"
+
+#: lib/view/backups/backups-list.php:66
+msgid "Click to label this backup"
+msgstr "Nhấp để đặt nhãn cho bản sao lưu này"
+
+#: lib/model/import/class-ai1wm-import-validate.php:141
+msgid "Archive unpacked."
+msgstr "Đã giải nén kho lưu trữ."
+
+#: lib/model/import/class-ai1wm-import-users.php:66
+msgid "WordPress users prepared."
+msgstr "Người dùng WordPress đã được chuẩn bị."
+
+#: lib/model/import/class-ai1wm-import-users.php:40
+msgid "Preparing WordPress users..."
+msgstr "Đang chuẩn bị người dùng WordPress..."
+
+#. translators: Error code.
+#: lib/model/import/class-ai1wm-import-upload.php:97
+msgid "An unknown error (code: %s) occurred during the file upload. The process cannot continue."
+msgstr "Đã xảy ra lỗi không xác định (mã: %s) trong quá trình tải tệp lên. Quá trình không thể tiếp tục."
+
+#: lib/model/import/class-ai1wm-import-upload.php:93
+msgid "A PHP extension blocked this file upload. The process cannot continue."
+msgstr "Tiện ích mở rộng PHP đã chặn việc tải tệp lên này. Quá trình không thể tiếp tục."
+
+#: lib/model/import/class-ai1wm-import-upload.php:90
+msgid "Could not save the uploaded file. Please check file permissions and try again."
+msgstr "Không thể lưu tệp đã tải lên. Vui lòng kiểm tra quyền tệp và thử lại."
+
+#: lib/model/import/class-ai1wm-import-upload.php:87
+msgid "No temporary folder is available on the server. The process cannot continue."
+msgstr "Không có thư mục tạm thời nào khả dụng trên máy chủ. Quá trình không thể tiếp tục."
+
+#: lib/model/import/class-ai1wm-import-upload.php:84
+msgid "The uploaded file is too large for this server. The process cannot continue."
+msgstr "Tệp đã tải lên quá lớn đối với máy chủ này. Quá trình không thể tiếp tục."
+
+#. translators: Error message.
+#: lib/model/import/class-ai1wm-import-upload.php:75
+msgid "Could not upload the file because %s. The process cannot continue."
+msgstr "Không thể tải tệp lên do %s. Quá trình không thể tiếp tục."
+
+#: lib/model/import/class-ai1wm-import-upload.php:44
+msgid "The uploaded file is missing a temporary path. The process cannot continue."
+msgstr "Tệp tải lên thiếu đường dẫn tạm thời. Quá trình không thể tiếp tục."
+
+#: lib/model/import/class-ai1wm-import-upload.php:40
+msgid "The uploaded file is missing an error code. The process cannot continue."
+msgstr "Tệp tải lên thiếu mã lỗi. Quá trình không thể tiếp tục."
+
+#: lib/model/import/class-ai1wm-import-upload.php:36
+msgid "No file was uploaded. Please select a file and try again."
+msgstr "Không có tệp nào được tải lên. Vui lòng chọn tệp và thử lại."
+
+#: lib/model/import/class-ai1wm-import-permalinks.php:44
+msgid "WordPress permalinks settings retrieved."
+msgstr "Đã lấy được cài đặt permalink của WordPress."
+
+#: lib/model/import/class-ai1wm-import-options.php:75
+msgid "WordPress options prepared."
+msgstr "Đã chuẩn bị các tùy chọn của WordPress."
+
+#: lib/model/import/class-ai1wm-import-options.php:36
+msgid "Preparing WordPress options..."
+msgstr "Đang chuẩn bị các tùy chọn của WordPress..."
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:65
+msgid "Mu-plugins activated."
+msgstr "Đã kích hoạt Mu-plugin."
+
+#: lib/model/import/class-ai1wm-import-enumerate.php:52
+msgid "WordPress files gathered."
+msgstr "Đã thu thập các tệp của WordPress."
+
+#: lib/model/import/class-ai1wm-import-enumerate.php:37
+msgid "Gathering WordPress files..."
+msgstr "Đang thu thập các tệp của WordPress..."
+
+#: lib/model/import/class-ai1wm-import-database.php:1016
+msgid "Database restored."
+msgstr "Đã khôi phục cơ sở dữ liệu."
+
+#: lib/model/import/class-ai1wm-import-check-decryption-password.php:61
+msgid "The decryption password is not valid. The process cannot continue."
+msgstr "Mật khẩu giải mã không hợp lệ. Quá trình không thể tiếp tục."
+
+#: lib/model/import/class-ai1wm-import-check-decryption-password.php:54
+msgid "Decryption password validated."
+msgstr "Mật khẩu giải mã đã được xác thực."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:152
+msgid "Blogs prepared."
+msgstr "Đã chuẩn bị các blog."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:142
+msgid "Could not import a WordPress Network into a single WordPress site. The process cannot continue. Please check your import settings."
+msgstr "Không thể nhập mạng WordPress vào một trang web WordPress đơn lẻ. Quá trình không thể tiếp tục. Vui lòng kiểm tra cài đặt nhập khẩu của bạn."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:139
+msgid "The archive must contain at least one WordPress site. The process cannot continue. Please check your export settings."
+msgstr "Kho lưu trữ phải chứa ít nhất một trang web WordPress. Quá trình không thể tiếp tục. Vui lòng kiểm tra cài đặt xuất khẩu của bạn."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:136
+msgid "The archive must contain only a single WordPress site. The process cannot continue. Please revisit your export settings."
+msgstr "Kho lưu trữ chỉ được chứa một trang web WordPress duy nhất. Quá trình không thể tiếp tục. Vui lòng xem lại cài đặt xuất khẩu của bạn."
+
+#: lib/model/export/class-ai1wm-export-enumerate-themes.php:108
+msgid "Theme files gathered."
+msgstr "Đã thu thập các tệp theme."
+
+#: lib/model/export/class-ai1wm-export-enumerate-themes.php:53
+msgid "Gathering theme files..."
+msgstr "Đang thu thập các tệp theme..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-tables.php:80
+msgid "Database tables gathered."
+msgstr "Đã thu thập các bảng cơ sở dữ liệu."
+
+#: lib/model/export/class-ai1wm-export-enumerate-tables.php:48
+msgid "Gathering database tables..."
+msgstr "Đang thu thập các bảng cơ sở dữ liệu..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-plugins.php:102
+msgid "Plugin files gathered."
+msgstr "Đã thu thập các tệp plugin."
+
+#: lib/model/export/class-ai1wm-export-enumerate-plugins.php:53
+msgid "Gathering plugin files..."
+msgstr "Đang thu thập các tệp plugin..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-media.php:95
+msgid "Media files gathered."
+msgstr "Đã thu thập các tệp phương tiện."
+
+#: lib/model/export/class-ai1wm-export-enumerate-media.php:53
+msgid "Gathering media files..."
+msgstr "Đang thu thập các tệp phương tiện..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-content.php:113
+msgid "Content files gathered."
+msgstr "Đã thu thập các tệp nội dung."
+
+#: lib/model/export/class-ai1wm-export-enumerate-content.php:53
+msgid "Gathering content files..."
+msgstr "Đang thu thập các tệp nội dung..."
+
+#: lib/model/export/class-ai1wm-export-database.php:162
+msgid "Database exported."
+msgstr "Đã xuất cơ sở dữ liệu."
+
+#: lib/model/export/class-ai1wm-export-database-file.php:81
+msgid "Database archived."
+msgstr "Đã lưu trữ cơ sở dữ liệu."
+
+#: lib/model/export/class-ai1wm-export-config.php:182
+msgid "Configuration prepared."
+msgstr "Đã chuẩn bị cấu hình."
+
+#: lib/model/export/class-ai1wm-export-config-file.php:75
+msgid "Configuration archived."
+msgstr "Đã lưu trữ cấu hình."
+
+#: lib/model/export/class-ai1wm-export-compatibility.php:37
+#: lib/model/import/class-ai1wm-import-compatibility.php:38
+msgid "Checking for compatibility..."
+msgstr "Đang kiểm tra tính tương thích..."
+
+#: lib/model/export/class-ai1wm-export-archive.php:46
+msgid "Export file created."
+msgstr "Đã tạo tệp xuất."
+
+#: lib/model/export/class-ai1wm-export-archive.php:39
+msgid "Creating export file..."
+msgstr "Đang tạo tệp xuất..."
+
+#. translators: Error message.
+#: lib/model/class-ai1wm-feedback.php:81
+msgid "An error occurred while submitting your request: %s"
+msgstr "Đã xảy ra lỗi khi gửi yêu cầu của bạn: %s"
+
+#: lib/model/class-ai1wm-feedback.php:63
+msgid "Please check the consent box so we can use your email to respond to you."
+msgstr "Vui lòng đánh dấu vào ô đồng ý để chúng tôi có thể sử dụng email của bạn để trả lời bạn."
+
+#: lib/model/class-ai1wm-feedback.php:58
+msgid "Please describe your issue or feedback."
+msgstr "Vui lòng mô tả vấn đề hoặc phản hồi của bạn."
+
+#: lib/model/class-ai1wm-feedback.php:53
+msgid "Please select a feedback type."
+msgstr "Vui lòng chọn loại phản hồi."
+
+#: lib/model/class-ai1wm-feedback.php:48
+msgid "Please enter a valid email address."
+msgstr "Vui lòng nhập một địa chỉ email hợp lệ."
+
+#. translators: Extension name.
+#: lib/model/class-ai1wm-compatibility.php:53
+msgid "%s is out of date. Please update this extension before using it."
+msgstr "%s đã lỗi thời. Vui lòng cập nhật tiện ích mở rộng này trước khi sử dụng."
+
+#: lib/controller/class-ai1wm-main-controller.php:1158
+msgid "Please enter a password to restore the backup"
+msgstr "Vui lòng nhập mật khẩu để khôi phục bản sao lưu"
+
+#: lib/controller/class-ai1wm-main-controller.php:1154
+msgid "Could not download backup"
+msgstr "Không thể tải xuống bản sao lưu"
+
+#: lib/controller/class-ai1wm-main-controller.php:1153
+msgid "Could not read backup content"
+msgstr "Không thể đọc nội dung bản sao lưu"
+
+#. translators: 1: Link to Unlimited extension.
+#: lib/controller/class-ai1wm-main-controller.php:1139
+msgid "\"Restore\" functionality is available in our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a>.<br /> If you would rather go the manual route, you can still restore by downloading your backup and using \"Import from file\"."
+msgstr "Chức năng \"Khôi phục\" có sẵn trong <a href=\"%s\" target=\"_blank\">Mở rộng không giới hạn</a> của chúng tôi.<br /> Nếu bạn muốn thực hiện theo cách thủ công, bạn vẫn có thể khôi phục bằng cách tải về sao lưu của bạn và sử dụng \"Nhập từ file\"."
+
+#: lib/controller/class-ai1wm-main-controller.php:1125
+msgid "Could not stop the import. Please refresh and try again"
+msgstr "Không thể dừng quá trình nhập. Vui lòng làm mới và thử lại"
+
+#: lib/controller/class-ai1wm-main-controller.php:1124
+msgid "Could not prepare blogs on import. Please refresh and try again"
+msgstr "Không thể chuẩn bị các blog để nhập. Vui lòng làm mới và thử lại"
+
+#: lib/controller/class-ai1wm-main-controller.php:1123
+msgid "Could not confirm the import. Please refresh and try again"
+msgstr "Không thể xác nhận quá trình nhập. Vui lòng làm mới và thử lại"
+
+#: lib/controller/class-ai1wm-main-controller.php:1122
+msgid "Could not start the import. Please refresh and try again"
+msgstr "Không thể bắt đầu quá trình nhập. Vui lòng làm mới và thử lại"
+
+#: lib/controller/class-ai1wm-main-controller.php:1115
+msgid "Could not stop the export. Please refresh and try again"
+msgstr "Không thể dừng quá trình xuất. Vui lòng làm mới và thử lại"
+
+#: lib/controller/class-ai1wm-main-controller.php:1114
+msgid "Could not run the export. Please refresh and try again"
+msgstr "Không thể chạy quá trình xuất. Vui lòng làm mới và thử lại"
+
+#: lib/controller/class-ai1wm-main-controller.php:1113
+msgid "Could not start the export. Please refresh and try again"
+msgstr "Không thể bắt đầu quá trình xuất. Vui lòng làm mới và thử lại"
+
+#: lib/controller/class-ai1wm-main-controller.php:958
+msgid "Upload failed"
+msgstr "Tải lên thất bại"
+
+#: lib/controller/class-ai1wm-main-controller.php:957
+msgid "Upload failed - connection lost or timeout. Try uploading the file again."
+msgstr "Tải lên thất bại - mất kết nối hoặc hết thời gian chờ. Hãy thử tải tệp lên lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:941
+#: lib/controller/class-ai1wm-main-controller.php:1126
+msgid "Stopping the import, please wait..."
+msgstr "Đang dừng nhập khẩu, vui lòng chờ..."
+
+#: lib/controller/class-ai1wm-main-controller.php:940
+msgid "Could not stop the import. Please refresh and try again."
+msgstr "Không thể dừng nhập khẩu. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:939
+msgid "Could not prepare blogs for import. Please refresh and try again."
+msgstr "Không thể chuẩn bị các bài đăng blog để nhập khẩu. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:938
+msgid "Could not check the decryption password. Please refresh and try again."
+msgstr "Không thể kiểm tra mật khẩu giải mã. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:937
+msgid "Could not confirm the import. Please refresh and try again."
+msgstr "Không thể xác nhận nhập khẩu. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:936
+msgid "Could not start the import. Please refresh and try again."
+msgstr "Không thể bắt đầu nhập khẩu. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:933
+#: lib/controller/class-ai1wm-main-controller.php:1119
+msgid "Are you sure you want to stop the import?"
+msgstr "Bạn có chắc chắn muốn dừng nhập khẩu không?"
+
+#. translators: Link to how to article.
+#. translators: Url
+#: lib/controller/class-ai1wm-main-controller.php:924
+#: lib/controller/class-ai1wm-main-controller.php:972
+#: lib/view/import/pro.php:59
+msgid "If you prefer a manual fix, follow our step-by-step guide on <a href=\"%s\" target=\"_blank\">raising your upload limit</a>."
+msgstr "Nếu bạn thích sửa chữa thủ công, hãy làm theo hướng dẫn từng bước của chúng tôi về <a href=\"%s\" target=\"_blank\">việc tăng giới hạn tải lên của bạn</a>."
+
+#. translators: Link to Unlimited extension.
+#. translators: Url
+#: lib/controller/class-ai1wm-main-controller.php:919
+#: lib/controller/class-ai1wm-main-controller.php:967
+#: lib/view/import/pro.php:47
+msgid "Our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a> bypasses this!"
+msgstr "Tiện ích <a href=\"%s\" target=\"_blank\">Mở rộng không giới hạn</a> của chúng tôi vượt qua điều này!"
+
+#: lib/controller/class-ai1wm-main-controller.php:814
+msgid "Could not download file"
+msgstr "Không thể tải xuống tệp"
+
+#: lib/controller/class-ai1wm-main-controller.php:806
+#: lib/controller/class-ai1wm-main-controller.php:1116
+msgid "Stopping the export, please wait..."
+msgstr "Đang dừng xuất khẩu, vui lòng chờ..."
+
+#: lib/controller/class-ai1wm-main-controller.php:805
+msgid "Could not stop the export. Please refresh and try again."
+msgstr "Không thể dừng xuất khẩu. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:804
+msgid "Could not run the export. Please refresh and try again."
+msgstr "Không thể chạy xuất khẩu. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:803
+msgid "Could not start the export. Please refresh and try again."
+msgstr "Không thể bắt đầu xuất khẩu. Vui lòng làm mới và thử lại."
+
+#: lib/controller/class-ai1wm-main-controller.php:800
+#: lib/controller/class-ai1wm-main-controller.php:1110
+msgid "Are you sure you want to stop the export?"
+msgstr "Bạn có chắc chắn muốn dừng xuất khẩu không?"
+
+#: lib/controller/class-ai1wm-main-controller.php:729
+#: lib/controller/class-ai1wm-main-controller.php:809
+#: lib/controller/class-ai1wm-main-controller.php:949
+#: lib/controller/class-ai1wm-main-controller.php:1134
+msgid "Thank you! We have received your request and will be in touch soon."
+msgstr "Cảm ơn bạn! Chúng tôi đã nhận được yêu cầu của bạn và sẽ liên lạc sớm."
+
+#: lib/controller/class-ai1wm-import-controller.php:110
+#: lib/controller/class-ai1wm-import-controller.php:111
+#: lib/controller/class-ai1wm-main-controller.php:935
+#: lib/controller/class-ai1wm-main-controller.php:1121
+msgid "Import failed"
+msgstr "Nhập khẩu thất bại"
+
+#. translators: Error message.
+#: lib/controller/class-ai1wm-import-controller.php:107
+msgid "Import failed: %s"
+msgstr "Nhập khẩu thất bại: %s"
+
+#: lib/controller/class-ai1wm-export-controller.php:98
+#: lib/controller/class-ai1wm-export-controller.php:99
+#: lib/controller/class-ai1wm-main-controller.php:802
+#: lib/controller/class-ai1wm-main-controller.php:1112
+msgid "Export failed"
+msgstr "Xuất khẩu thất bại"
+
+#. translators: 1: Error message.
+#: lib/controller/class-ai1wm-export-controller.php:95
+msgid "Export failed: %s"
+msgstr "Xuất khẩu thất bại: %s"
+
+#: lib/controller/class-ai1wm-backups-controller.php:187
+msgid "Could not list the backup content. Please ensure the backup file is accessible and not corrupted."
+msgstr "Không thể liệt kê nội dung sao lưu. Vui lòng đảm bảo tệp sao lưu khả dụng và không bị hỏng."
+
+#: functions.php:2242
+msgid "Could not decrypt data. The process cannot continue."
+msgstr "Không thể giải mã dữ liệu. Quá trình không thể tiếp tục."
+
+#: functions.php:2220
+msgid "Could not obtain cipher length. The process cannot continue."
+msgstr "Không thể lấy được độ dài mã hóa. Quá trình không thể tiếp tục."
+
+#: functions.php:2205
+msgid "Could not encrypt data. The process cannot continue."
+msgstr "Không thể mã hóa dữ liệu. Quá trình không thể tiếp tục."
+
+#: functions.php:2200
+msgid "Could not generate random bytes. The process cannot continue."
+msgstr "Không thể tạo byte ngẫu nhiên. Quá trình không thể tiếp tục."
+
+#: functions.php:1814
+msgid "Could not authenticate the secret key. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-secret-key/\" target=\"_blank\">Technical details</a>"
+msgstr "Không thể xác thực secret key. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-secret-key/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1645
+msgid "Could not get current pointer position of %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Technical details</a>"
+msgstr "Không thể lấy vị trí con trỏ hiện tại của %s. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1594
+msgid "Could not read file: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "Không thể đọc tệp: %s. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1568
+msgid "Out of disk space. Could not write to: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">Technical details</a>"
+msgstr "Hết dung lượng ổ cứng. Không thể viết vào: %s. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1556 functions.php:1679
+msgid "Could not write to: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "Không thể viết vào: %s. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#: functions.php:87 functions.php:149
+msgid "Your archive file name contains invalid characters: < > : \" | ? * \\0. It must not include these characters. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-name/\" target=\"_blank\">Technical details</a>"
+msgstr "Tên tệp lưu trữ của bạn chứa các kí tự không hợp lệ: < > : \" | ? * \\0. Nó không được bao gồm những kí tự này. Quá trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-name/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#: functions.php:77 functions.php:139
+msgid "Could not locate the archive path. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-path/\" target=\"_blank\">Technical details</a>"
+msgstr "Không thể xác định đường dẫn lưu trữ. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-path/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#: functions.php:52
+msgid "Your storage directory name contains invalid characters: < > : \" | ? * \\0. It must not include these characters. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-name/\" target=\"_blank\">Technical details</a>"
+msgstr "Tên thư mục lưu trữ của bạn chứa các ký tự không hợp lệ: < > : \" | ? * \\0. Nó không được bao gồm những ký tự này. Quá trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-name/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#: functions.php:42
+msgid "Could not locate the storage path. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-path/\" target=\"_blank\">Technical details</a>"
+msgstr "Không thể xác định đường dẫn lưu trữ. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-path/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#. Description of the plugin
+#: all-in-one-wp-migration.php
+msgid "All-in-One WP Migration makes moving your entire WordPress site simple. Export or import your database, media, plugins, and themes with just a few clicks."
+msgstr "All-in-One WP Migration giúp di chuyển toàn bộ trang web WordPress của bạn trở nên đơn giản. Xuất hoặc nhập cơ sở dữ liệu, phương tiện, plugin và theme chỉ với vài cú nhấp chuột."
+
+#: lib/controller/class-ai1wm-main-controller.php:815
+#: lib/controller/class-ai1wm-main-controller.php:956
+#: lib/controller/class-ai1wm-main-controller.php:1163
+msgid "View Error Log"
+msgstr "Xem Nhật ký lỗi"
+
+#: functions.php:97 functions.php:159
+msgid "Invalid archive file type. Only .wpress files are allowed. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-type/\" target=\"_blank\">Technical details</a>"
+msgstr "Loại tệp tin lưu trữ không hợp lệ. Chỉ cho phép các tệp .wpress. Quy trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-type/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#: lib/view/reset/index.php:41
+msgid "Reset Hub Demo"
+msgstr "Reset Hub Demo"
+
+#: lib/view/reset/index.php:41
+msgid "Upgrade to Premium "
+msgstr "Nâng cấp lên Premium "
+
+#: lib/view/reset/index.php:39
+msgid "Please note, the features displayed below are part of an image showcasing the potential of Reset Hub in its Premium version. To activate and enjoy these advanced features, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">upgrade to Premium now</a>! Elevate your website management experience with these exclusive functionalities and priority support."
+msgstr "Xin lưu ý, các tính năng được hiển thị bên dưới là một phần của hình ảnh thể hiện tiềm năng của Reset Hub trong phiên bản Premium. Để kích hoạt và tận hưởng những tính năng nâng cao này, hãy <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">nâng cấp lên Premium ngay bây giờ</a>! Nâng cao trải nghiệm quản lý trang web của bạn với các chức năng độc quyền và hỗ trợ ưu tiên này."
+
+#: lib/view/reset/index.php:37
+msgid "Experience Full Functionality with Premium!"
+msgstr "Trải nghiệm đầy đủ chức năng với Premium!"
+
+#: lib/view/reset/index.php:36
+msgid "Star"
+msgstr "Sao"
+
+#: lib/controller/class-ai1wm-main-controller.php:680
+#: lib/controller/class-ai1wm-main-controller.php:681
+msgid "Reset Hub"
+msgstr "Trung tâm khôi phục"
+
+#: lib/view/main/premium-badge.php:33
+msgid "Premium"
+msgstr "Premium"
+
+#: lib/view/schedules/index.php:111
+msgid "Leverage the simplicity of Dropbox for your backup needs. Direct your scheduled backups to be stored in Dropbox. It's secure, straightforward, and keeps your backups at your fingertips."
+msgstr "Tận dụng tính đơn giản của Dropbox cho nhu cầu sao lưu của bạn. Chỉ đạo các bản sao lưu theo lịch trình của bạn sẽ được lưu trữ trong Dropbox. Nó an toàn, đơn giản và giữ các bản sao lưu trong tầm tay bạn."
+
+#: lib/view/schedules/index.php:163
+msgid "Tailor your backup schedules to fit the complexity of your WordPress Multisite. Choose to export the entire network or only a selection of subsites according to your requirements. Effortless management for even the most intricate site networks."
+msgstr "Điều chỉnh lịch trình sao lưu của bạn để phù hợp với độ phức tạp của WordPress Multisite. Chọn xuất toàn bộ mạng hoặc chỉ một số trang con theo yêu cầu của bạn. Quản lý dễ dàng ngay cả đối với các mạng trang web phức tạp nhất."
+
+#: lib/view/schedules/index.php:150
+msgid "We've got you covered with an array of supported storage providers. Whether you prefer Box, Amazon S3, WebDav or something else, you can choose the one that fits your needs best. Secure your backups exactly where you want them."
+msgstr "Chúng tôi cung cấp cho bạn một loạt các nhà cung cấp dịch vụ lưu trữ được hỗ trợ. Cho dù bạn thích Box, Amazon S3, WebDav hay thứ gì khác, bạn có thể chọn thứ phù hợp nhất với nhu cầu của mình. Bảo mật các bản sao lưu của bạn chính xác ở nơi bạn muốn."
+
+#: lib/view/schedules/index.php:137
+msgid "Enjoy the flexibility of FTP storage. Direct your scheduled backups to your own FTP server. You'll have full control over your data, providing you with a versatile and private storage solution."
+msgstr "Tận hưởng sự linh hoạt của việc lưu trữ FTP. Hướng các bản sao lưu theo lịch trình của bạn đến máy chủ FTP của riêng bạn. Bạn sẽ có toàn quyền kiểm soát dữ liệu của mình, cung cấp cho bạn giải pháp lưu trữ riêng tư và linh hoạt."
+
+#: lib/view/schedules/index.php:124
+msgid "Harness the power of OneDrive for your backups. Set up your scheduled backups to be saved directly in your OneDrive. It's secure, integrated with your Microsoft account, and keeps your data readily accessible."
+msgstr "Khai thác sức mạnh của OneDrive cho các bản sao lưu của bạn. Thiết lập các bản sao lưu theo lịch trình để lưu trực tiếp vào OneDrive của bạn. Nó an toàn, được tích hợp với tài khoản Microsoft của bạn và giúp dữ liệu của bạn có thể truy cập dễ dàng."
+
+#: lib/view/schedules/index.php:98
+msgid "Benefit from the robustness of Google Drive. Schedule your backups to be saved directly to your Google Drive account. Simple, secure, and integrated into a platform you already use."
+msgstr "Hưởng lợi từ sự mạnh mẽ của Google Drive. Lên lịch sao lưu để lưu trực tiếp vào tài khoản Google Drive của bạn. Đơn giản, an toàn và được tích hợp vào nền tảng bạn đã sử dụng."
+
+#: lib/view/schedules/index.php:85
+msgid "Manage your storage effectively with our flexible retention settings. Decide how many backups you want to keep at a time. Old backups are automatically cleared, keeping your storage neat and efficient."
+msgstr "Quản lý bộ nhớ của bạn một cách hiệu quả với cài đặt lưu giữ linh hoạt của chúng tôi. Quyết định số lượng bản sao lưu bạn muốn giữ cùng một lúc. Các bản sao lưu cũ sẽ tự động bị xóa, giữ cho bộ nhớ của bạn gọn gàng và hiệu quả."
+
+#: lib/view/schedules/index.php:77 lib/view/schedules/index.php:82
+msgid "Retention settings"
+msgstr "Cài đặt lưu giữ"
+
+#: lib/view/schedules/index.php:72
+msgid "Stay informed, not overwhelmed. Tailor your notification preferences to get updates that matter to you. Whether it's the status of each backup, or just critical alerts, control what you want to be notified about."
+msgstr "Luôn cập nhật thông tin, không bị choáng ngợp. Điều chỉnh tùy chọn thông báo của bạn để nhận thông tin cập nhật quan trọng với bạn. Cho dù đó là trạng thái của từng bản sao lưu hay chỉ là những cảnh báo quan trọng, hãy kiểm soát những gì bạn muốn được thông báo."
+
+#: lib/view/schedules/index.php:64 lib/view/schedules/index.php:69
+msgid "Notification settings"
+msgstr "Thiết lập thông báo"
+
+#: lib/view/schedules/index.php:59
+msgid "Never worry about forgetting to back up your site again. Choose from various scheduling options, from daily to monthly, and we'll automate the rest. Backups happen like clockwork, giving you peace of mind and a solid safety net"
+msgstr "Không bao giờ lo lắng về việc quên sao lưu lại trang web của bạn. Chọn từ các tùy chọn lập lịch khác nhau, từ hàng ngày đến hàng tháng và chúng tôi sẽ tự động hóa phần còn lại. Quá trình sao lưu diễn ra như kim đồng hồ, giúp bạn yên tâm và có mạng lưới an toàn vững chắc"
+
+#: lib/view/schedules/index.php:56 lib/view/schedules/index.php:69
+#: lib/view/schedules/index.php:82 lib/view/schedules/index.php:95
+#: lib/view/schedules/index.php:108 lib/view/schedules/index.php:121
+#: lib/view/schedules/index.php:134 lib/view/schedules/index.php:147
+#: lib/view/schedules/index.php:160
+msgid "Enable this feature"
+msgstr "Kích hoạt tính năng này"
+
+#: lib/view/schedules/index.php:51
+msgid "Backup scheduler"
+msgstr "Lập lịch sao lưu"
+
+#: lib/view/schedules/index.php:45 lib/view/schedules/index.php:155
+#: lib/view/schedules/index.php:160
+msgid "Multisite Schedules"
+msgstr "Lịch trình nhiều trang"
+
+#: lib/view/schedules/index.php:44 lib/view/schedules/index.php:142
+#: lib/view/schedules/index.php:147
+msgid "More Storage Providers"
+msgstr "Thêm nhà cung cấp lưu trữ"
+
+#: lib/view/schedules/index.php:43 lib/view/schedules/index.php:129
+#: lib/view/schedules/index.php:134
+msgid "FTP Storage"
+msgstr "Lưu trữ FTP"
+
+#: lib/view/schedules/index.php:42 lib/view/schedules/index.php:116
+#: lib/view/schedules/index.php:121
+msgid "OneDrive Storage"
+msgstr "Lưu trữ trên OneDrive"
+
+#: lib/view/schedules/index.php:41 lib/view/schedules/index.php:103
+#: lib/view/schedules/index.php:108
+msgid "Dropbox Storage"
+msgstr "Lưu trữ trên Dropbox"
+
+#: lib/view/schedules/index.php:40 lib/view/schedules/index.php:90
+#: lib/view/schedules/index.php:95
+msgid "Google Drive Storage"
+msgstr "Lưu trữ trên Google Drive"
+
+#: lib/view/schedules/index.php:39
+msgid "Retention Settings"
+msgstr "Cài đặt lưu giữ"
+
+#: lib/view/schedules/index.php:38
+msgid "Notification Settings"
+msgstr "Cài đặt thông báo"
+
+#: lib/view/schedules/index.php:37 lib/view/schedules/index.php:56
+msgid "Backup Scheduler"
+msgstr "Lịch trình sao lưu"
+
+#: lib/controller/class-ai1wm-main-controller.php:689
+#: lib/controller/class-ai1wm-main-controller.php:690
+msgid "Schedules"
+msgstr "Lịch trình"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:61
+msgid "Backup is encrypted. Please provide decryption password: "
+msgstr "Bản sao lưu được mã hóa. Vui lòng cung cấp mật khẩu giải mã: "
+
+#: lib/view/export/advanced-settings.php:65
+msgid "Password-protect and encrypt backups"
+msgstr "Bảo vệ bằng mật khẩu và mã hóa các bản sao lưu"
+
+#: lib/view/export/advanced-settings.php:52
+msgid "A password is required"
+msgstr "Mật khẩu (bắt buộc)"
+
+#: lib/view/export/advanced-settings.php:45
+msgid "Encrypt this backup with a password"
+msgstr "Mã hóa sao lưu này bằng một mật khẩu"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:50
+msgid "Importing an encrypted backup is not supported on this server. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Technical details</a>"
+msgstr "Việc nhập một bản sao lưu đã mã hóa không được hỗ trợ trên máy chủ này. Quá trình không thể tiếp tục. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Chi tiết kỹ thuật</a>"
+
+#: lib/controller/class-ai1wm-main-controller.php:955
+#: lib/controller/class-ai1wm-main-controller.php:1162
+#: lib/view/export/advanced-settings.php:57
+msgid "The passwords do not match"
+msgstr "Mật khẩu không trùng khớp"
+
+#: lib/controller/class-ai1wm-main-controller.php:954
+#: lib/controller/class-ai1wm-main-controller.php:1161
+#: lib/view/export/advanced-settings.php:55
+msgid "Repeat the password"
+msgstr "Lặp lại Mật khẩu mới"
+
+#: lib/controller/class-ai1wm-main-controller.php:952
+#: lib/controller/class-ai1wm-main-controller.php:1159
+msgid "Submit"
+msgstr "Gửi"
+
+#: lib/controller/class-ai1wm-main-controller.php:951
+msgid "Please enter a password to import the file"
+msgstr "Vui lòng nhập mật khẩu để nhập tệp tin"
+
+#: lib/controller/class-ai1wm-main-controller.php:950
+#: lib/controller/class-ai1wm-main-controller.php:1157
+msgid "The backup is encrypted"
+msgstr "Bản sao lưu được mã hóa"
+
+#: lib/view/backups/backups-list.php:131
+msgid "List"
+msgstr "Xem danh sách dữ liệu"
+
+#: lib/view/backups/backups-list.php:129
+msgid "Show backup content"
+msgstr "Hiển thị nội dung sao lưu"
+
+#: lib/view/backups/backups-list.php:122
+msgid "Downloading is not possible because backups directory is not accessible."
+msgstr "Không thể tải xuống vì thư mục sao lưu không thể truy cập được."
+
+#: lib/controller/class-ai1wm-main-controller.php:1156
+msgid "Reading..."
+msgstr "Đang đọc..."
+
+#: lib/controller/class-ai1wm-main-controller.php:1155
+msgid "List the content of the backup"
+msgstr "Dữ liệu bản sao lưu bao gồm"
+
+#: lib/controller/class-ai1wm-main-controller.php:1152
+msgid "Error"
+msgstr "Lỗi"
+
+#: lib/view/backups/backups-list.php:95
+msgid "More"
+msgstr "Xem thêm"
+
+#. translators: 1: Number of backups.
+#. translators: Number of backups.
+#: lib/controller/class-ai1wm-main-controller.php:813
+#: lib/controller/class-ai1wm-main-controller.php:1151
+msgid "You have %d backups"
+msgstr "Bạn có %d bản sao lưu"
+
+#. translators: 1: Number of backups.
+#. translators: Number of backups.
+#. translators: Numbers of backups.
+#: lib/controller/class-ai1wm-main-controller.php:811
+#: lib/controller/class-ai1wm-main-controller.php:1149
+#: lib/view/main/backups.php:33
+msgid "You have %d backup"
+msgid_plural "You have %d backups"
+msgstr[0] "Bạn có %d bản sao lưu"
+
+#. translators: 1: Error message.
+#: lib/view/updater/error.php:33
+msgid "Error: %s"
+msgstr "Lỗi: %s"
+
+#: lib/view/main/contact-support.php:33
+msgid "Contact Support"
+msgstr "Liên hệ hỗ trợ"
+
+#: lib/model/import/class-ai1wm-import-permalinks.php:38
+msgid "Retrieving WordPress permalinks settings..."
+msgstr "Đang lấy cài đặt đường dẫn cố định WordPress..."
+
+#: lib/view/import/avada.php:46
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">Reset Avada Fusion Builder cache</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">Đặt lại bộ nhớ cache của Avada Fusion Builder</a>.<br />"
+
+#: lib/view/import/avada.php:43
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Tái ký các mã ngắn của Oxygen Builder</a>.<br />"
+
+#: lib/view/import/avada.php:33
+msgid "» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />"
+msgstr "» Đường dẫn được đặt thành mặc định. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Tại sao?</a><br />"
+
+#: lib/view/main/translate.php:33
+msgid "Translate"
+msgstr "Phiên dịch"
+
+#: lib/controller/class-ai1wm-main-controller.php:946
+#: lib/controller/class-ai1wm-main-controller.php:1131
+msgid "I have enough disk space"
+msgstr "Tôi đủ dung lượng trống trên hosting"
+
+#: lib/view/backups/backups-list.php:48 lib/view/backups/index.php:51
+msgid "Refreshing backup list..."
+msgstr "Đang làm mới danh sách sao lưu..."
+
+#: lib/view/import/button-file.php:33
+msgid "To choose a file please go inside the link and click on the browse button."
+msgstr "Để chọn file vui lòng vào liên kết và nhấp vào nút duyệt."
+
+#: lib/controller/class-ai1wm-main-controller.php:943
+#: lib/controller/class-ai1wm-main-controller.php:1127
+msgid "Finish"
+msgstr "Hoàn tất"
+
+#: lib/model/import/class-ai1wm-import-validate.php:102
+msgid "The archive file appears to be corrupted. Follow <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">this article</a> for possible fixes."
+msgstr "Tệp lưu trữ có vẻ bị hỏng. Hãy tham khảo <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">bài viết này</a> để biết các cách khắc phục có thể."
+
+#: lib/view/import/import-buttons.php:41
+msgid "Drag & Drop a backup to import it"
+msgstr "Kéo & Thả bản sao lưu vào đây để nhập"
+
+#: lib/controller/class-ai1wm-main-controller.php:1136
+msgid "Backup restore requires the Unlimited extension. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">Get it here</a>"
+msgstr "Việc khôi phục sao lưu yêu cầu tiện ích mở rộng không giới hạn. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">Nhận tại đây</a>"
+
+#: lib/controller/class-ai1wm-main-controller.php:277
+msgid "All-in-One WP Migration Command"
+msgstr "All-in-One WP Migration Command"
+
+#: lib/controller/class-ai1wm-main-controller.php:801
+#: lib/controller/class-ai1wm-main-controller.php:1111
+#: lib/model/export/class-ai1wm-export-init.php:45
+msgid "Preparing to export..."
+msgstr "Chuẩn bị xuất ra..."
+
+#. translators: Human time diff
+#: lib/view/backups/backups-list.php:84
+msgid "%s ago"
+msgstr "cách đây %s"
+
+#: lib/controller/class-ai1wm-main-controller.php:1261
+msgid "Your purchase ID is invalid. Please <a href=\"mailto:support@servmask.com\">contact us</a>."
+msgstr "ID mua hàng của bạn không hợp lệ. Vui lòng <a href=\"mailto:support@servmask.com\">liên hệ với chúng tôi</a>."
+
+#: lib/controller/class-ai1wm-main-controller.php:1135
+msgid "Are you sure you want to delete this backup?"
+msgstr "Bạn có chắc bạn muốn xóa bản sao lưu này không?"
+
+#: lib/controller/class-ai1wm-main-controller.php:948
+#: lib/controller/class-ai1wm-main-controller.php:1133
+msgid "Please do not close this browser window or your import will fail"
+msgstr "Đừng đóng cửa sổ trình duyệt nếu không việc nhập vào sẽ bị lỗi"
+
+#: lib/controller/class-ai1wm-main-controller.php:947
+#: lib/controller/class-ai1wm-main-controller.php:1132
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: lib/controller/class-ai1wm-main-controller.php:945
+#: lib/controller/class-ai1wm-main-controller.php:1130
+msgid "Proceed"
+msgstr "Tiếp tục"
+
+#: lib/controller/class-ai1wm-main-controller.php:944
+#: lib/controller/class-ai1wm-main-controller.php:1129
+msgid "Stop import"
+msgstr "Ngừng nhập"
+
+#: lib/controller/class-ai1wm-main-controller.php:808
+#: lib/controller/class-ai1wm-main-controller.php:1118
+msgid "Stop export"
+msgstr "Ngừng xuất"
+
+#: lib/controller/class-ai1wm-main-controller.php:807
+#: lib/controller/class-ai1wm-main-controller.php:942
+#: lib/controller/class-ai1wm-main-controller.php:1117
+#: lib/controller/class-ai1wm-main-controller.php:1128
+msgid "Close"
+msgstr "Đóng"
+
+#: lib/model/export/class-ai1wm-export-config.php:38
+msgid "Preparing configuration..."
+msgstr "Đang chuẩn bị cấu hình..."
+
+#. translators: Progress.
+#: lib/model/export/class-ai1wm-export-config-file.php:63
+#: lib/model/export/class-ai1wm-export-config-file.php:99
+msgid "Archiving configuration...<br />%d%% complete"
+msgstr "Đang lưu trữ cấu hình...<br />Hoàn thành %d%%"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-validate.php:90
+#: lib/model/import/class-ai1wm-import-validate.php:162
+msgid "Unpacking archive...<br />%d%% complete"
+msgstr "Đang giải nén lưu trữ...<br />%d%% hoàn thành"
+
+#. translators: Progress.
+#: lib/model/export/class-ai1wm-export-database-file.php:69
+#: lib/model/export/class-ai1wm-export-database-file.php:105
+msgid "Archiving database...<br />%d%% complete"
+msgstr "Đang lưu trữ cơ sở dữ liệu... <br />%d%% hoàn thành"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-database.php:81
+#: lib/model/import/class-ai1wm-import-database.php:1037
+msgid "Restoring database...<br />%d%% complete"
+msgstr "Đang khôi phục cơ sỡ dữ liệu...<br />%d%% hoàn thành"
+
+#: lib/controller/class-ai1wm-main-controller.php:934
+#: lib/controller/class-ai1wm-main-controller.php:1120
+msgid "Preparing to import..."
+msgstr "Chuẩn bị nhập..."
+
+#: lib/controller/class-ai1wm-main-controller.php:1371
+msgid "Monthly"
+msgstr "Hàng tháng"
+
+#: lib/controller/class-ai1wm-main-controller.php:1367
+msgid "Weekly"
+msgstr "Hàng tuần"
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:37
+msgid "Activating mu-plugins..."
+msgstr "Đang kích hoạt mu-plugins.."
+
+#: lib/view/export/advanced-settings.php:125
+msgid "Do <strong>not</strong> replace email domain (sql)"
+msgstr "<strong>Không</strong> thay thế email tên miền (sql)"
+
+#: lib/model/import/class-ai1wm-import-blogs.php:37
+msgid "Preparing blogs..."
+msgstr "Đang chuẩn bị blog..."
+
+#: lib/view/updater/modal.php:57
+msgid "There is an update available. To update, you must enter your"
+msgstr "Có bản cập nhật. Để cập nhật, bạn phải nhập"
+
+#: lib/view/updater/modal.php:50
+msgid "Discard"
+msgstr "Huỷ"
+
+#: lib/view/updater/modal.php:48
+msgid "Save"
+msgstr "Lưu lại"
+
+#: lib/view/updater/modal.php:44
+msgid "here"
+msgstr "tại đây"
+
+#: lib/view/updater/modal.php:43
+msgid "Don't have a Purchase ID? You can find your Purchase ID"
+msgstr "Bạn không có ID mua hàng? Bạn có thể tìm ID mua hàng của mình"
+
+#: lib/view/updater/modal.php:39 lib/view/updater/modal.php:58
+msgid "Purchase ID"
+msgstr "Mã Id mua hàng"
+
+#: lib/view/updater/modal.php:36
+msgid "To update your plugin/extension to the latest version, please fill your Purchase ID below."
+msgstr "Để cập nhật plugin / tiện ích mở rộng của bạn lên phiên bản mới nhất, vui lòng điền ID mua hàng của bạn bên dưới."
+
+#: lib/view/updater/modal.php:35
+msgid "Enter your Purchase ID"
+msgstr "Nhập ID mua hàng của bạn"
+
+#: lib/controller/class-ai1wm-main-controller.php:1260
+#: lib/view/updater/check.php:33
+msgid "Check for updates"
+msgstr "Kiểm tra cập nhật"
+
+#. Author of the plugin
+#: all-in-one-wp-migration.php
+msgid "ServMask"
+msgstr "ServMask"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: all-in-one-wp-migration.php
+msgid "https://servmask.com/"
+msgstr "https://servmask.com/"
+
+#: lib/view/import/index.php:39
+msgid "Import Site"
+msgstr "Nhập trang web"
+
+#: lib/view/import/import-buttons.php:45
+msgid "Import From"
+msgstr "Nhập từ"
+
+#: lib/view/export/index.php:39
+msgid "Export Site"
+msgstr "Xuất trang web"
+
+#: lib/view/export/help-section.php:52
+msgid "Once the file is successfully downloaded on your computer, you can import it to any of your WordPress sites."
+msgstr "Khi tệp được tải xuống thành công trên máy tính của bạn, bạn có thể nhập tệp đó vào bất kỳ trang web WordPress nào của mình."
+
+#: lib/view/export/help-section.php:48
+msgid "Press \"Export\" button and the site archive file will pop up in your browser."
+msgstr "Nhấn nút \"Xuất\" và tệp lưu trữ trang web sẽ bật lên trong trình duyệt của bạn."
+
+#: lib/view/export/help-section.php:44
+msgid "In the advanced settings section you can configure more precisely the way of exporting."
+msgstr "Trong phần cài đặt nâng cao, bạn có thể định cấu hình chính xác hơn cách xuất."
+
+#: lib/view/export/find-replace.php:54
+msgid "Add"
+msgstr "Thêm mới"
+
+#: lib/view/export/find-replace.php:41
+msgid "in the database"
+msgstr "trong cơ sở dữ liệu"
+
+#: lib/view/export/find-replace.php:40
+msgid "<another-text>"
+msgstr "<another-text>"
+
+#: lib/view/export/find-replace.php:39 lib/view/export/find-replace.php:47
+msgid "Replace with"
+msgstr "Thay bằng"
+
+#: lib/view/export/find-replace.php:38
+msgid "<text>"
+msgstr "<text>"
+
+#: lib/view/export/button-file.php:33 lib/view/import/button-file.php:34
+msgid "File"
+msgstr "Tệp tin"
+
+#: lib/view/export/advanced-settings.php:38
+msgid "(click to expand)"
+msgstr "(bấm để xem thêm)"
+
+#: lib/view/export/advanced-settings.php:37
+msgid "Advanced options"
+msgstr "Tuỳ chọn nâng cao"
+
+#: lib/view/common/share-buttons.php:73
+msgid "Tweet"
+msgstr "Tweet"
+
+#: lib/view/common/leave-feedback.php:69
+msgid "Cancel"
+msgstr "Hủy"
+
+#: lib/view/common/leave-feedback.php:72
+msgid "Send"
+msgstr "Gửi"
+
+#: lib/controller/class-ai1wm-main-controller.php:953
+#: lib/controller/class-ai1wm-main-controller.php:1160
+#: lib/view/export/advanced-settings.php:50
+msgid "Enter a password"
+msgstr "Nhập mật khẩu"
+
+#: lib/view/common/sidebar-right.php:41
+msgid "Leave Feedback"
+msgstr "Gửi góp ý"
+
+#: lib/view/backups/index.php:59
+msgid "Create backup"
+msgstr "Tạo bản sao lưu"
+
+#: lib/view/backups/backups-list.php:136 lib/view/backups/backups-list.php:138
+msgid "Delete"
+msgstr "Xóa"
+
+#: lib/view/backups/backups-list.php:101 lib/view/backups/backups-list.php:103
+msgid "Restore"
+msgstr "Khôi phục"
+
+#: lib/view/backups/backups-list.php:109 lib/view/backups/backups-list.php:111
+#: lib/view/backups/backups-list.php:114 lib/view/backups/backups-list.php:116
+#: lib/view/backups/backups-list.php:124
+msgid "Download"
+msgstr "Tải về"
+
+#: lib/view/backups/backups-list.php:40
+msgid "Size"
+msgstr "Kích thước"
+
+#: lib/view/backups/backups-list.php:39
+msgid "Date"
+msgstr "Ngày"
+
+#: lib/view/backups/backups-list.php:38
+msgid "Name"
+msgstr "Tên"
+
+#: lib/model/import/class-ai1wm-import-done.php:365
+#: lib/model/import/class-ai1wm-import-done.php:367
+#: lib/model/import/class-ai1wm-import-done.php:369
+msgid "Your site has been imported successfully!"
+msgstr "Dữ liệu của bạn đã được nhập thành công!"
+
+#: lib/model/export/class-ai1wm-export-download.php:37
+msgid "Renaming export file..."
+msgstr "Đang đổi tên tệp xuất..."
+
+#: lib/controller/class-ai1wm-main-controller.php:669
+#: lib/controller/class-ai1wm-main-controller.php:670
+#: lib/view/backups/index.php:39
+msgid "Backups"
+msgstr "Bản sao lưu"
+
+#: lib/controller/class-ai1wm-main-controller.php:659
+#: lib/controller/class-ai1wm-main-controller.php:660
+msgid "Import"
+msgstr "Nhập"
+
+#: lib/controller/class-ai1wm-main-controller.php:649
+#: lib/controller/class-ai1wm-main-controller.php:650
+msgid "Export"
+msgstr "Xuất"
+
+#: lib/view/main/multisite-notice.php:43
+msgid "Get multisite"
+msgstr "Lấy multisite"

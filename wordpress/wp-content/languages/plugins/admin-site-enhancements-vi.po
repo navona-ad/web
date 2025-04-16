@@ -1,0 +1,1434 @@
+# Translation of Plugins - Admin and Site Enhancements (ASE) - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Admin and Site Enhancements (ASE) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-10 14:19:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Admin and Site Enhancements (ASE) - Stable (latest release)\n"
+
+#. translators: %s is URL to the Admin Menu Organizer settings page
+#: classes/class-settings-sections-fields.php:794
+msgid "Once enabled, you can find the <a href=\"%s\">Admin Menu</a> item under the Settings menu."
+msgstr "Khi được bật, bạn có thể tìm mục <a href=\"%s\">Menu quản trị</a> trong phần cài đặt."
+
+#: classes/class-admin-menu-organizer.php:22
+msgid "Admin Menu"
+msgstr "Menu quản trị"
+
+#: classes/class-admin-menu-organizer.php:20
+msgid "Admin Menu Settings"
+msgstr "Cài đặt Menu quản trị"
+
+#: classes/class-settings-sections-fields.php:2433
+msgid "Only the latest 1,000 entries are kept in the database."
+msgstr "Chỉ 1.000 mục mới nhất được giữ trong cơ sở dữ liệu."
+
+#: classes/class-settings-sections-fields.php:2279
+msgid "Disable <strong>application passwords</strong> that was added since WordPress v5.6."
+msgstr "Tắt <strong>mật khẩu ứng dụng</strong> đã được thêm kể từ WordPress v5.6."
+
+#: classes/class-settings-sections-fields.php:2414
+msgid "For example, if your site is behind a trusted proxy, it's a good idea to use the <code>HTTP_X_FORWARDED_FOR</code> header. Leave empty to use the default detection method."
+msgstr "Ví dụ, nếu trang web của bạn nằm sau một proxy đáng tin cậy, thì nên sử dụng <code>HTTP_X_FORWARDED_FOR</code> trong đầu trang. Để trống để sử dụng phương pháp phát hiện mặc định."
+
+#: classes/class-settings-sections-fields.php:2387
+msgid "<span class=\"field-sublabel sublabel-wide\">Detect IP address from the following header first:</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Phát hiện địa chỉ IP từ đầu trang sau đây trước:</span>"
+
+#: classes/class-settings-sections-fields.php:486
+msgid "Remove home icon and site name"
+msgstr "Xóa biểu tượng và tên trang web"
+
+#: settings.php:264
+msgid "Log In/Out | Register"
+msgstr "Đăng nhập | Đăng ký"
+
+#: classes/class-settings-sections-fields.php:1355
+msgid "Display the registration date and time in the users list table."
+msgstr "Hiển thị ngày và giờ đăng ký trong bảng danh sách người dùng."
+
+#: classes/class-settings-sections-fields.php:1345
+msgid "Registration Date Column"
+msgstr "Cột ngày đăng ký"
+
+#: classes/class-registration-date-column.php:17
+msgid "Registered"
+msgstr "Đã đăng ký"
+
+#: settings.php:366
+msgid "Currently on YEAR-END SALE. <a href=\"https://www.wpase.com/promo-ndg\" target=\"_blank\">20% discount</a>."
+msgstr "Hiện đang trong chương trình KHUYẾN MÃI CUỐI NĂM. <a href=\"https://www.wpase.com/promo-ndg\" target=\"_blank\">Giảm giá 20%</a>."
+
+#: settings.php:155
+msgid "Get It Now"
+msgstr "Nhận ngay"
+
+#: settings.php:152
+msgid "ASE Pro YEAR-END SALE! 20% DISCOUNT. Lifetime Deal (LTD) available."
+msgstr "ASE Pro KHUYẾN MÃI CUỐI NĂM! Giảm giá 20%. Có sẵn gói Ưu đãi trọn đời (LTD)."
+
+#: classes/class-settings-sections-fields.php:2291
+msgid "Disable the <strong>plugin and theme editor</strong>. <span class=\"warning-text\">Note that wp-config.php in this site is not writeable and <code>DISALLOW_FILE_EDIT</code> constant is already defined there. You either need to make it writeable to make this setting functional, or, you need to manually change the value of <code>DISALLOW_FILE_EDIT</code> there.</span>"
+msgstr "Tắt <strong>công cụ chỉnh sửa plugin và giao diện</strong>. <span class=\"warning-text\">Lưu ý rằng wp-config.php trong trang web này không thể ghi và hằng số <code>DISALLOW_FILE_EDIT</code> đã được định nghĩa ở đó. Bạn cần phải làm cho nó có thể ghi để thiết lập này hoạt động, hoặc bạn cần thay đổi giá trị của <code>DISALLOW_FILE_EDIT</code> thủ công trong tệp đó.</span>"
+
+#: classes/class-settings-sections-fields.php:2288
+#: classes/class-settings-sections-fields.php:2293
+msgid "Disable the <strong>plugin and theme editor</strong>."
+msgstr "Tắt <strong>trình chỉnh sửa plugin và giao diện</strong>."
+
+#: classes/class-settings-sections-fields.php:968
+msgid "Remove date column"
+msgstr "Xóa cột ngày"
+
+#: classes/class-settings-sections-fields.php:896
+msgid "Show last modified column"
+msgstr "Hiển thị cột ngày chỉnh sửa gần đây"
+
+#: classes/class-enhance-list-tables.php:313
+msgid "File Size"
+msgstr "Kích thước tệp"
+
+#: classes/class-enhance-list-tables.php:179
+msgid "Last Modified"
+msgstr "Ngày chỉnh sửa"
+
+#: classes/class-enhance-list-tables.php:117
+msgid "Excerpt"
+msgstr "Tóm tắt"
+
+#: classes/class-enhance-list-tables.php:54
+msgid "Product Image"
+msgstr "Ảnh sản phẩm"
+
+#: classes/class-enhance-list-tables.php:50
+msgid "Featured Image"
+msgstr "Ảnh đại diện"
+
+#: classes/class-settings-sections-fields.php:2109
+msgid "Disable the <strong>&lt;generator&gt; tag</strong> in RSS feed &lt;channel&gt;, which discloses the WordPress version number. Older versions(s) might contain unpatched security loophole(s)."
+msgstr "Tắt thẻ <strong>&lt;generator&gt;</strong> trong nguồn cấp dữ liệu RSS &lt;channel&gt;, điều này tiết lộ số phiên bản WordPress. Các phiên bản cũ có thể chứa lỗ hổng bảo mật chưa được vá."
+
+#: classes/class-settings-sections-fields.php:2262
+msgid "Disable <strong>lazy loading of images</strong> that was natively added since WordPress v5.5."
+msgstr "Tắt <strong>lazy loading cho ảnh</strong> đã được thêm vào từ phiên bản WordPress v5.5."
+
+#: classes/class-last-login-column.php:32
+msgid "Last Login"
+msgstr "Lần đăng nhập cuối"
+
+#: classes/class-content-order.php:31 classes/class-content-order.php:48
+#: classes/class-content-order.php:50 classes/class-content-order.php:66
+#: classes/class-content-order.php:68 classes/class-content-order.php:84
+#: classes/class-content-order.php:128
+msgid "Order"
+msgstr "Sắp xếp nội dung"
+
+#: classes/class-change-login-url.php:333
+#: classes/class-limit-login-attempts.php:222
+#: classes/class-limit-login-attempts.php:329
+msgid "Invalid username/email or incorrect password."
+msgstr "Tên người dùng/email không hợp lệ hoặc mật khẩu không chính xác."
+
+#: classes/class-change-login-url.php:333
+#: classes/class-limit-login-attempts.php:222
+#: classes/class-limit-login-attempts.php:329
+msgid "Error:"
+msgstr "Lỗi:"
+
+#: includes/password-protected-login.php:85
+msgid "View Content"
+msgstr "Xem nội dung"
+
+#: includes/password-protected-login.php:80
+msgid "Password"
+msgstr "Mật khẩu"
+
+#. translators: %s is URL to the Customizer
+#: classes/class-settings-sections-fields.php:1290
+msgid "Use the site icon and URL to replace the default WordPress logo with link to wordpress.org on the login page. Go to <a href=\"%1$s\">General Settings</a> or the <a href=\"%2$s\">Customizer</a> to set or change your site icon."
+msgstr "Sử dụng biểu tượng trang web và URL để thay thế logo mặc định của WordPress với liên kết đến wordpress.org trên trang đăng nhập. Đi đến <a href=\"%1$s\">Cài đặt chung</a> hoặc <a href=\"%2$s\">Công cụ tùy chỉnh</a> để thiết lập hoặc thay đổi biểu tượng trang web của bạn."
+
+#: classes/class-settings-sections-fields.php:1023
+msgid "Various, smaller enhancements for different parts of the admin interface."
+msgstr "Các cải tiến nhỏ khác nhau cho các phần khác nhau của giao diện quản trị."
+
+#: classes/class-settings-sections-fields.php:1013
+msgid "Various Admin UI Enhancements"
+msgstr "Nâng cao giao diện quản trị đa dạng"
+
+#: classes/class-settings-sections-fields.php:306
+msgid "Enable uploading <a href=\"https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/\" target=\"_blank\">AVIF</a> files in the Media Library. You can convert your existing PNG, JPG and GIF files using a tool like <a href=\"https://squoosh.app/\" target=\"_blank\">Squoosh</a>."
+msgstr "Bật tải lên file <a href=\"https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/\" target=\"_blank\">AVIF</a> trong Media. Bạn có thể chuyển đổi các file PNG, JPG và GIF hiện có của bạn bằng một công cụ như <a href=\"https://squoosh.app/\" target=\"_blank\">Squoosh</a>."
+
+#: classes/class-settings-sections-fields.php:296
+msgid "AVIF Upload"
+msgstr "Tải lên AVIF"
+
+#: classes/class-settings-sections-fields.php:1905
+msgid "Disable the Gutenberg block editor for some or all applicable post types."
+msgstr "Tắt trình chỉnh sửa khối cho một số hoặc tất cả các loại nội dung hiện tại."
+
+#: classes/class-last-login-column.php:55
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: classes/class-admin-menu-organizer.php:214
+msgid "View"
+msgstr "Xem"
+
+#: classes/class-admin-menu-organizer.php:212
+msgid "Edit"
+msgstr "Sửa"
+
+#: classes/class-admin-menu-organizer.php:210
+#: classes/class-admin-menu-organizer.php:211
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: settings.php:1060
+msgid "Configure"
+msgstr "Thiết lập"
+
+#: classes/class-settings-sections-fields.php:809
+msgid "Show Custom Taxonomy Filters"
+msgstr "Hiển thị bộ lọc phân loại tùy chỉnh"
+
+#: classes/class-settings-sections-fields.php:649
+msgid "Welcome to WordPress"
+msgstr "Chào mừng đến với WordPress"
+
+#: classes/class-password-protection.php:37
+msgid "Password protection is currently enabled for this site."
+msgstr "Bật bảo vệ mật khẩu cho trang web này hiện đang được kích hoạt."
+
+#: classes/class-maintenance-mode.php:137
+msgid "Maintenance mode is currently enabled for this site."
+msgstr "Chế độ bảo trì hiện đang được bật cho trang web này."
+
+#: classes/class-hide-admin-notices.php:68
+msgid "Click to view hidden admin notices"
+msgstr "Click để xem thông báo admin ẩn"
+
+#: classes/class-hide-admin-notices.php:64
+msgid "Notices"
+msgstr "Thông báo"
+
+#: classes/class-hide-admin-notices.php:32
+msgid "Admin Notices"
+msgstr "Thông báo của admin"
+
+#. translators: %s is the singular label for the post type
+#: classes/class-content-duplication.php:146
+msgid "Duplicate %s"
+msgstr "Tạo bản sao %s"
+
+#: classes/class-content-duplication.php:116
+msgid "Duplicate"
+msgstr "Tạo bản sao"
+
+#: classes/class-content-duplication.php:116
+msgid "Duplicate this as draft"
+msgstr "Tạo bản sao như một bản nháp"
+
+#: classes/class-admin-menu-organizer.php:342
+#: classes/class-admin-menu-organizer.php:343
+msgid "Show Less"
+msgstr "Thu gọn"
+
+#: classes/class-admin-menu-organizer.php:331
+#: classes/class-admin-menu-organizer.php:332
+msgid "Show All"
+msgstr "Hiển thị tất cả"
+
+#: classes/class-content-duplication.php:32
+msgid "DUPLICATE"
+msgstr "Tạo bản sao"
+
+#: settings.php:660
+msgid "Perform Replacement"
+msgstr "Thực hiện Thay thế"
+
+#: settings.php:208
+msgid "YouTube"
+msgstr "YouTube"
+
+#: settings.php:205
+msgid "X / Twitter"
+msgstr "X / Twitter"
+
+#: settings.php:198
+msgid "Facebook"
+msgstr "Facebook"
+
+#: settings.php:192
+msgid "Share about ASE on:"
+msgstr "Chia sẻ về ASE trên:"
+
+#: classes/class-settings-sections-fields.php:1839
+msgid "<strong>Your app-ads.txt content:</strong>"
+msgstr "<strong>Nội dung của bạn trong tệp app-ads.txt:</strong>"
+
+#. translators: %s is the default login URL
+#: classes/class-settings-sections-fields.php:1188
+msgid "Default is %s"
+msgstr "Mặc định là %s"
+
+#: classes/class-search-engines-visibility.php:47
+msgid "Search engines are discouraged from indexing this site. Click to change the settings."
+msgstr "Các công cụ tìm kiếm không được khuyến khích lập chỉ mục trang web này. Click để thay đổi cài đặt."
+
+#: classes/class-search-engines-visibility.php:44
+msgid "SE Visibility: OFF"
+msgstr "Chế độ hiển thị SEO: ĐANG TẮT"
+
+#: classes/class-media-replacement.php:76
+msgid "The current file will be replaced with the uploaded / selected file (of the same type) while retaining the current ID, publish date and file name. Thus, no existing links will break."
+msgstr "Tệp hiện tại sẽ được thay thế bằng tệp đã tải lên / đã chọn (cùng loại) trong khi vẫn giữ nguyên ID hiện tại, ngày đăng và tên tệp. Do đó, không có liên kết hiện có nào bị hỏng."
+
+#: classes/class-media-replacement.php:74 settings.php:659
+msgid "Select New Media File"
+msgstr "Chọn tệp media mới"
+
+#: classes/class-media-replacement.php:71
+msgid "Replace Media"
+msgstr "Thay thế Media"
+
+#: settings.php:620
+msgid "Previous"
+msgstr "Trang trước"
+
+#: settings.php:619
+msgid "Next"
+msgstr "Tiếp theo"
+
+#: settings.php:618
+msgid "Last"
+msgstr "Họ"
+
+#: settings.php:617
+msgid "First"
+msgstr "Tên"
+
+#: settings.php:615
+msgid "No matching records found"
+msgstr "Không tìm thấy kết quả nào"
+
+#: settings.php:614
+msgid "Search:"
+msgstr "Tìm kiếm:"
+
+#: settings.php:613
+msgid "Show _MENU_ entries"
+msgstr "Hiển thị _MENU_ entries"
+
+#: settings.php:612
+msgid "(filtered from _MAX_ total entries)"
+msgstr "(lọc từ giá trị _MAX_total)"
+
+#: settings.php:611
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Hiển thị giá trị 0 tới 0 của 0"
+
+#: settings.php:610
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Hiển thị giá trị _START_to_END_of_TOTAL_"
+
+#: settings.php:609
+msgid "No data available in table"
+msgstr "Không có dữ liệu trong bảng"
+
+#: settings.php:607
+msgid "Collapse"
+msgstr "Thu gọn"
+
+#: classes/class-settings-fields-render.php:33 settings.php:606
+msgid "Expand"
+msgstr "Mở rộng"
+
+#: settings.php:602
+msgid "Use Selected Image"
+msgstr "Sử dụng ảnh đã chọn"
+
+#: classes/class-settings-fields-render.php:574 settings.php:601
+msgid "Select an Image"
+msgstr "Chọn một ảnh"
+
+#: settings.php:222
+msgid "Dismiss"
+msgstr "Bỏ qua"
+
+#: settings.php:216
+msgid "Help others discover ASE and maybe <a href=\"https://www.wpase.com/trnslt-plgnndg\" target=\"_blank\">translate</a> to your language."
+msgstr "Giúp người khác khám phá ASE và có thể <a href=\"https://www.wpase.com/trnslt-plgnndg\" target=\"_blank\">dịch</a> sang ngôn ngữ của bạn."
+
+#: settings.php:211
+msgid "I've shared"
+msgstr "Tôi đã chia sẻ"
+
+#: settings.php:187
+msgid "Or, help improve ASE by <a href=\"https://wordpress.org/support/plugin/admin-site-enhancements/\" target=\"_blank\">providing feedback</a>."
+msgstr "Hoặc, hãy giúp cải thiện ASE bằng cách <a href=\"https://wordpress.org/support/plugin/admin-site-enhancements/\" target=\"_blank\">cung cấp phản hồi</a>."
+
+#: settings.php:183
+msgid "I've reviewed"
+msgstr "Tôi đã đánh giá"
+
+#: settings.php:180
+msgid "Add Your Review"
+msgstr "Thêm đánh giá của bạn"
+
+#: settings.php:176
+msgid "Write a quick, 5-star review for ASE"
+msgstr "Viết một đánh giá nhanh, 5 sao cho ASE"
+
+#: classes/class-settings-sections-fields.php:2790
+msgid "<span class=\"faded\">(Default is 15 seconds)</span>"
+msgstr "<span class=\"faded\">(Mặc định là 15 giây)</span>"
+
+#: classes/class-settings-sections-fields.php:819
+msgid "Show additional filter(s) on list tables for hierarchical, custom taxonomies."
+msgstr "Hiển thị (các) bộ lọc bổ sung trên bảng danh sách cho các phân loại tùy chỉnh, phân cấp."
+
+#: classes/class-login-id-type.php:74
+msgid "Email"
+msgstr "Email"
+
+#: classes/class-login-id-type.php:56
+msgid "<strong>Error:</strong> Invalid email or incorrect password."
+msgstr "<strong>Lỗi:</strong> Email không hợp lệ hoặc mật khẩu không chính xác."
+
+#: classes/class-login-id-type.php:22 classes/class-login-id-type.php:39
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: settings.php:363
+msgid "Do more with <a href=\"https://www.wpase.com/upgrade-ndg-btm\" target=\"_blank\">ASE Pro</a>. Lifetime deal (LTD) <a href=\"https://www.wpase.com/upgrade-ndg-btm-prc\" target=\"_blank\">available</a>."
+msgstr "Thực hiện nhiều hơn với <a href=\"https://www.wpase.com/upgrade-ndg-btm\" target=\"_blank\">ASE Pro</a>. Gói ưu đãi trọn đời (LTD) <a href=\"https://www.wpase.com/upgrade-ndg-btm-prc\" target=\"_blank\">có sẵn</a>."
+
+#: settings.php:289
+msgid "Utilities"
+msgstr "Tiện ích mở rộng"
+
+#: settings.php:284
+msgid "Optimizations"
+msgstr "Tối ưu hóa"
+
+#: settings.php:279
+msgid "Security"
+msgstr "Bảo mật"
+
+#: settings.php:274
+msgid "Disable Components"
+msgstr "Tắt các thành phần"
+
+#: settings.php:269
+msgid "Custom Code"
+msgstr "Tùy chỉnh mã"
+
+#: settings.php:259
+msgid "Admin Interface"
+msgstr "Giao diện quản trị"
+
+#: settings.php:254
+msgid "Content Management"
+msgstr "Quản lý nội dung"
+
+#: settings.php:171
+msgid "Please consider supporting ASE."
+msgstr "Vui lòng xem xét hỗ trợ ASE."
+
+#: settings.php:168
+msgid "Looks like some of these free enhancements have been useful for your site?"
+msgstr "Có vẻ như một số cải tiến miễn phí này đã hữu ích cho trang web của bạn phải không?"
+
+#: classes/class-admin-menu-organizer.php:50 settings.php:118 settings.php:344
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: settings.php:113
+msgid "Get ASE Pro"
+msgstr "Nhận ASE Pro"
+
+#: settings.php:46
+msgid "Enhancements"
+msgstr "Tối ưu quản trị (ASE)"
+
+#: classes/class-settings-sections-fields.php:3459
+msgid "Show admin bar status when search engines are set to be discouraged from indexing the site. This is set through a \"Search engine visibility\" checkbox in Settings >> Reading."
+msgstr "Hiển thị thanh quản trị khi trạng thái của công cụ tìm kiếm được đặt để không khuyến khích index trang web. Điều này được thiết lập thông qua một ô kiểm \"Tính năng hiển thị trên công cụ tìm kiếm\" trong Cài đặt  >> Đọc."
+
+#: classes/class-settings-sections-fields.php:3449
+msgid "Search Engines Visibility Status"
+msgstr "Trạng thái hiển thị trên công cụ tìm kiếm"
+
+#: classes/class-settings-sections-fields.php:3424
+msgid "Show quick summary of the system the site is running on to admins, in the \"At a Glance\" dashboard widget. This includes the web server software, the PHP version, the database software and server IP address."
+msgstr "Hiển thị tóm tắt nhanh về hệ thống mà trang web đang chạy trên đó cho các quản trị viên, trong mục \"Tin nhanh\" của Bảng tin. Điều này bao gồm phần mềm máy chủ web, phiên bản PHP, phần mềm cơ sở dữ liệu và địa chỉ IP của máy chủ."
+
+#: classes/class-settings-sections-fields.php:3427
+msgid "Display System Summary"
+msgstr "Hiển thị tóm tắt hệ thống"
+
+#: classes/class-settings-sections-fields.php:3400
+msgid "Perform 301 (permanent) redirect to the homepage for all 404 (not found) pages."
+msgstr "Thực hiện chuyển hướng 301 (vĩnh viễn) đến trang chủ cho tất cả các trang 404 (không tìm thấy)."
+
+#: classes/class-settings-sections-fields.php:3399
+msgid "Redirect 404 to Homepage"
+msgstr "Chuyển hướng 404"
+
+#: classes/class-settings-sections-fields.php:3392
+msgid "Please clear your cache</strong> after enabling or disabling maintenance mode. This ensures site visitors see either the maintenance page or the actual content of each page."
+msgstr "Vui lòng xóa bộ nhớ cache</strong> của bạn sau khi bật hoặc tắt chế độ bảo trì. Điều này đảm bảo khách truy cập trang web sẽ thấy trang bảo trì hoặc nội dung thực tế của mỗi trang."
+
+#: classes/class-settings-sections-fields.php:3367
+msgid "Background"
+msgstr "Nền"
+
+#: classes/class-settings-sections-fields.php:3363
+msgid "Lines"
+msgstr "Dòng"
+
+#: classes/class-settings-sections-fields.php:3362
+msgid "Curves"
+msgstr "Đường cong"
+
+#: classes/class-settings-sections-fields.php:3361
+msgid "Stripes"
+msgstr "Sọc"
+
+#: classes/class-settings-sections-fields.php:3354
+msgid "This site is undergoing maintenance for an extended period today. Thanks for your patience."
+msgstr "Trang web này đang được bảo trì. Cảm ơn bạn đã kiên nhẫn."
+
+#: classes/class-settings-sections-fields.php:3340
+msgid "Description"
+msgstr "Mô tả"
+
+#: classes/class-settings-sections-fields.php:3332
+msgid "We'll be back soon."
+msgstr "Chúng tôi sẽ quay lại sớm."
+
+#: classes/class-settings-sections-fields.php:3319
+msgid "Heading"
+msgstr "Tiêu đề"
+
+#: classes/class-settings-sections-fields.php:3296
+msgid "Show a customizable maintenance page on the frontend while performing a brief maintenance to your site. Logged-in administrators can still view the site as usual."
+msgstr "Hiển thị một trang bảo trì có thể tùy chỉnh trên phía người dùng khi thực hiện bảo trì ngắn cho trang web của bạn. Các quản trị viên đã đăng nhập vẫn có thể xem trang web như bình thường."
+
+#: classes/class-settings-sections-fields.php:3286
+msgid "Maintenance Mode"
+msgstr "Chế độ bảo trì"
+
+#: classes/class-settings-sections-fields.php:3276
+msgid "(Default is 'secret')"
+msgstr "(Mặc định là 'bí mật')"
+
+#: classes/class-settings-sections-fields.php:3265
+msgid "Set the password:"
+msgstr "Đặt mật khẩu:"
+
+#: classes/class-settings-sections-fields.php:3255
+msgid "Password-protect the entire site to hide the content from public view and search engine bots / crawlers. Logged-in administrators can still access the site as usual."
+msgstr "Bảo vệ mật khẩu toàn bộ trang web để ẩn nội dung khỏi việc xem công khai và các bot / crawler của công cụ tìm kiếm. Các admin đã đăng nhập vẫn có thể truy cập trang web như bình thường."
+
+#: classes/class-settings-sections-fields.php:3245
+msgid "Password Protection"
+msgstr "Bảo vệ mật khẩu"
+
+#. translators: %s is URL of the role reset link
+#: classes/class-settings-sections-fields.php:3234
+msgid "If something goes wrong</strong> and you need to regain access to your account as an administrator, please visit the following URL: <br /><strong>%s</strong><br /><br />If you use <strong>Ninja Firewall</strong>, please uncheck \"Block attempts to gain administrative privileges\" in the Firewall Policies settings before you try to view as a non-admin user role to <strong>prevent being locked out</strong> of your admin account."
+msgstr "Nếu có sự cố</strong> và bạn cần khôi phục quyền truy cập vào tài khoản của bạn dưới vai trò admin, vui lòng truy cập vào URL sau: <br /><strong>%s</strong><br /><br />Nếu bạn đang sử dụng <strong>Ninja Firewall</strong>, vui lòng bỏ chọn \"Block attempts to gain administrative privileges\" trong cài đặt Chính sách Firewall trước khi bạn cố gắng xem dưới vai trò người dùng không phải là admin để <strong>tránh bị khóa tài khoản admin</strong> của bạn."
+
+#: classes/class-settings-sections-fields.php:3212
+msgid "View admin pages and the site (logged-in) as one of the non-administrator user roles."
+msgstr "Xem trang admin và trang web (đã đăng nhập) như một trong các vai trò người dùng không phải là admin."
+
+#: classes/class-settings-sections-fields.php:3202
+msgid "View Admin as Role"
+msgstr "Xem Admin dưới vai trò"
+
+#: classes/class-settings-sections-fields.php:3192
+msgid "Display a panel showing and linking to all available sizes when viewing an image in the media library. Especially useful to quickly get the URL of a particular image size."
+msgstr "Hiển thị một bảng điều khiển hiển thị và liên kết đến tất cả các kích thước có sẵn khi xem một ảnh trong thư viện Media. Đặc biệt hữu ích để nhanh chóng lấy URL của một kích thước ảnh cụ thể."
+
+#: classes/class-settings-sections-fields.php:3182
+msgid "Image Sizes Panel"
+msgstr "Bảng kích thước ảnh"
+
+#: classes/class-settings-sections-fields.php:3172
+msgid "Enable assignment of multiple roles during user account creation and editing. This maybe useful for working with roles not defined in WordPress core, e.g. from e-commerce or LMS plugins."
+msgstr "Cho phép gán nhiều vai trò trong quá trình tạo và chỉnh sửa tài khoản người dùng. Điều này có thể hữu ích khi làm việc với các vai trò không được xác định trong lõi của WordPress, ví dụ như từ các plugin thương mại điện tử hoặc LMS."
+
+#: classes/class-settings-sections-fields.php:3162
+msgid "Multiple User Roles"
+msgstr "Nhiều vai trò người dùng"
+
+#: classes/class-settings-sections-fields.php:3153
+msgid "Oops, something went wrong</span>.<br />Please double check your settings and the destination email address."
+msgstr "Xin lỗi, có điều gì đó đã xảy ra</span>.<br />Vui lòng kiểm tra lại cài đặt của bạn và địa chỉ email đích."
+
+#: classes/class-settings-sections-fields.php:3152
+msgid "Test email was successfully processed</span>.<br />Please check the destination email's inbox to verify successful delivery."
+msgstr "Email kiểm tra đã được xử lý thành công.</span>.<br />Vui lòng kiểm tra hộp thư đến của email đích để xác nhận việc gửi thành công."
+
+#: classes/class-settings-sections-fields.php:3151
+msgid "Sending test email..."
+msgstr "Gửi email thử nghiệm..."
+
+#: classes/class-settings-sections-fields.php:3135
+msgid "Send Now"
+msgstr "Gửi ngay"
+
+#: classes/class-settings-sections-fields.php:3129
+msgid "<span class=\"field-sublabel sublabel-wide\">Send a test email to</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Gửi một email thử nghiệm đến</span>"
+
+#: classes/class-settings-sections-fields.php:3121
+msgid "After saving the settings above, check if everything is configured properly below."
+msgstr "Sau khi lưu cài đặt ở trên, hãy kiểm tra xem mọi thứ đã được cấu hình đúng phía dưới."
+
+#: classes/class-settings-sections-fields.php:3106
+msgid "Enable debug mode and output the debug info into WordPress debug.log file."
+msgstr "Kích hoạt chế độ gỡ lỗi và xuất thông tin gỡ lỗi vào tệp debug.log của WordPress."
+
+#: classes/class-settings-sections-fields.php:3089
+msgid "Bypass verification of SSL certificate. This would be insecure if mail is delivered across the internet but could help in certain local and/or containerized WordPress scenarios."
+msgstr "Bỏ qua việc xác thực chứng chỉ SSL. Điều này sẽ không an toàn nếu email được gửi qua Internet nhưng có thể hữu ích trong một số tình huống WordPress cục bộ và/hoặc trong môi trường chứa (container)."
+
+#: classes/class-settings-sections-fields.php:3060
+msgid "<span class=\"field-sublabel sublabel-wide\">Password</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Mật khẩu</span>"
+
+#: classes/class-settings-sections-fields.php:3040
+msgid "<span class=\"field-sublabel sublabel-wide\">Username</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Tên người dùng</span>"
+
+#: classes/class-settings-sections-fields.php:3030
+msgid "TLS"
+msgstr "TLS"
+
+#: classes/class-settings-sections-fields.php:3029
+msgid "SSL"
+msgstr "SSL"
+
+#: classes/class-settings-sections-fields.php:3028
+msgid "None"
+msgstr "Không dùng"
+
+#: classes/class-settings-sections-fields.php:3018
+msgid "<span class=\"field-sublabel sublabel-wide\">Security</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Bảo mật</span>"
+
+#: classes/class-settings-sections-fields.php:2995
+msgid "<span class=\"field-sublabel sublabel-wide\">Port</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Cổng</span>"
+
+#: classes/class-settings-sections-fields.php:2975
+msgid "<span class=\"field-sublabel sublabel-wide\">Host</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Máy chủ</span>"
+
+#: classes/class-settings-sections-fields.php:2967
+msgid "If set, the following SMTP service/account wil be used to deliver your emails."
+msgstr "Nếu được thiết lập, dịch vụ/tài khoản SMTP sau sẽ được sử dụng để gửi email của bạn."
+
+#: classes/class-settings-sections-fields.php:2952
+msgid "Force the usage of the sender name/email defined above. It will override those set by other plugins."
+msgstr "Yêu cầu sử dụng tên/email người gửi được định nghĩa ở trên. Điều này sẽ ghi đè lên các thiết lập của các plugin khác."
+
+#: classes/class-settings-sections-fields.php:2923
+msgid "<span class=\"field-sublabel sublabel-wide\">Sender email</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Email người gửi</span>"
+
+#: classes/class-settings-sections-fields.php:2903
+msgid "<span class=\"field-sublabel sublabel-wide\">Sender name</span>"
+msgstr "<span class=\"field-sublabel sublabel-wide\">Tên người gửi</span>"
+
+#: classes/class-settings-sections-fields.php:2895
+msgid "If set, the following sender name/email overrides WordPress core defaults but can still be overridden by other plugins that enables custom sender name/email, e.g. form plugins."
+msgstr "Nếu được thiết lập, tên/email người gửi sau đây sẽ ghi đè lên các giá trị mặc định của WordPress nhưng vẫn có thể bị ghi đè bởi các plugin khác cho phép tùy chỉnh tên/email người gửi, ví dụ như các plugin form."
+
+#: classes/class-settings-sections-fields.php:2878
+msgid "Set custom sender name and email. Optionally use external SMTP service to ensure notification and transactional emails from your site are being delivered to inboxes."
+msgstr "Đặt tên người gửi và email tùy chỉnh. Tuỳ chọn sử dụng dịch vụ SMTP bên ngoài để đảm bảo email thông báo và giao dịch từ trang web của bạn được gửi đến hộp thư đến."
+
+#: classes/class-settings-sections-fields.php:2868
+msgid "Email Delivery"
+msgstr "Gửi email"
+
+#: classes/class-settings-sections-fields.php:2810
+msgid "On the frontend"
+msgstr "Trên giao diện người dùng"
+
+#: classes/class-settings-sections-fields.php:2797
+msgid "120 seconds"
+msgstr "120 giây"
+
+#: classes/class-settings-sections-fields.php:2796
+msgid "90 seconds"
+msgstr "90 giây"
+
+#: classes/class-settings-sections-fields.php:2795
+msgid "60 seconds"
+msgstr "60 giây"
+
+#: classes/class-settings-sections-fields.php:2794
+msgid "45 seconds"
+msgstr "45 giây"
+
+#: classes/class-settings-sections-fields.php:2757
+msgid "On post creation and edit screens"
+msgstr "Trên trang tạo và sửa bài viết"
+
+#: classes/class-settings-sections-fields.php:2744
+#: classes/class-settings-sections-fields.php:2851
+msgid "10 minutes"
+msgstr "10 phút"
+
+#: classes/class-settings-sections-fields.php:2743
+#: classes/class-settings-sections-fields.php:2850
+msgid "5 minutes"
+msgstr "5 phút"
+
+#: classes/class-settings-sections-fields.php:2742
+#: classes/class-settings-sections-fields.php:2849
+msgid "3 minutes"
+msgstr "3 phút"
+
+#: classes/class-settings-sections-fields.php:2741
+#: classes/class-settings-sections-fields.php:2848
+msgid "2 minutes"
+msgstr "2 phút"
+
+#: classes/class-settings-sections-fields.php:2740
+#: classes/class-settings-sections-fields.php:2847
+msgid "1 minute"
+msgstr "1 phút"
+
+#: classes/class-settings-sections-fields.php:2739
+#: classes/class-settings-sections-fields.php:2793
+#: classes/class-settings-sections-fields.php:2846
+msgid "30 seconds"
+msgstr "30 giây"
+
+#: classes/class-settings-sections-fields.php:2738
+#: classes/class-settings-sections-fields.php:2792
+#: classes/class-settings-sections-fields.php:2845
+msgid "15 seconds"
+msgstr "15 giây"
+
+#: classes/class-settings-sections-fields.php:2736
+msgid "<span class=\"faded\">(Default is 1 minute)</span>"
+msgstr "<span class=\"faded\">(Mặc định là 1 phút)</span>"
+
+#: classes/class-settings-sections-fields.php:2735
+#: classes/class-settings-sections-fields.php:2789
+#: classes/class-settings-sections-fields.php:2842
+msgid "Set interval to once every"
+msgstr "Đặt khoảng cách thời gian là một lần cho mỗi lần"
+
+#: classes/class-settings-sections-fields.php:2715
+#: classes/class-settings-sections-fields.php:2769
+#: classes/class-settings-sections-fields.php:2822
+msgid "Disable"
+msgstr "Tắt"
+
+#: classes/class-settings-sections-fields.php:2714
+#: classes/class-settings-sections-fields.php:2768
+#: classes/class-settings-sections-fields.php:2821
+msgid "Modify"
+msgstr "Chỉnh sửa"
+
+#: classes/class-settings-sections-fields.php:2713
+#: classes/class-settings-sections-fields.php:2767
+#: classes/class-settings-sections-fields.php:2820
+msgid "Keep as is"
+msgstr "Giữ nguyên như vậy"
+
+#: classes/class-settings-sections-fields.php:2703
+msgid "On admin pages"
+msgstr "Trên trang admin"
+
+#: classes/class-settings-sections-fields.php:2693
+msgid "Modify the interval of the WordPress heartbeat API or disable it on admin pages, post creation/edit screens and/or the frontend. This will help reduce CPU load on the server."
+msgstr "Sửa đổi khoảng thời gian của WordPress heartbeat API hoặc tắt nó trên trang admin, trang sửa tạo bài viết và/hoặc trang frontend. Điều này sẽ giúp giảm tải CPU trên máy chủ."
+
+#: classes/class-settings-sections-fields.php:2683
+msgid "Heartbeat Control"
+msgstr "Điều khiển sức khỏe"
+
+#: classes/class-settings-sections-fields.php:2643
+msgid "revisions for:"
+msgstr "lịch sử cho:"
+
+#: classes/class-settings-sections-fields.php:2642
+msgid "Limit to"
+msgstr "Hạn chế đến"
+
+#: classes/class-settings-sections-fields.php:2622
+msgid "Prevent bloating the database by limiting the number of revisions to keep for some or all post types supporting revisions."
+msgstr "Ngăn chặn việc làm phình cơ sở dữ liệu bằng cách giới hạn số lượng lịch sử để giữ cho một số hoặc tất cả các loại bài hỗ trợ lịch sử."
+
+#: classes/class-settings-sections-fields.php:2612
+msgid "Revisions Control"
+msgstr "Kiểm soát lịch sử"
+
+#: classes/class-settings-sections-fields.php:2593
+msgid "To exclude an image from conversion and resizing, append '-nr' suffix to the file name, e.g. bird-photo-4k-nr.jpg"
+msgstr "Để loại bỏ một ảnh khỏi quá trình chuyển đổi và thay đổi kích thước, thêm hậu tố '-nr' vào tên tệp, ví dụ: bird-photo-4k-nr.jpg."
+
+#: classes/class-settings-sections-fields.php:2583
+msgid "pixels <span class=\"faded\">(Default is 1920 pixels)</span>"
+msgstr "pixels <span class=\"faded\">(Mặc định là 1920 pixel)</span>"
+
+#: classes/class-settings-sections-fields.php:2582
+msgid "Max height:"
+msgstr "Chiều cao tối đa:"
+
+#: classes/class-settings-sections-fields.php:2559
+msgid "pixels. <span class=\"faded\">(Default is 1920 pixels)</span>"
+msgstr "pixels. <span class=\"faded\">(Mặc định là 1920 pixel)</span>"
+
+#: classes/class-settings-sections-fields.php:2558
+msgid "Max width:"
+msgstr "Chiều rộng tối đa:"
+
+#: classes/class-settings-sections-fields.php:2538
+msgid "Resize newly uploaded, large images to a smaller dimension and delete originally uploaded files. BMPs and non-transparent PNGs will be converted to JPGs and resized."
+msgstr "Thay đổi kích thước các ảnh mới tải lên, có kích thước lớn thành kích thước nhỏ hơn và xoá các file đã tải lên ban đầu. Các file BMP và PNG không trong suốt sẽ được chuyển đổi thành JPG và thay đổi kích thước."
+
+#: classes/class-settings-sections-fields.php:2528
+msgid "Image Upload Control"
+msgstr "Kiểm soát ảnh tải lên"
+
+#: classes/class-settings-sections-fields.php:2515
+msgid "Protect your site from brute force, DOS and DDOS attacks via <a href=\"https://kinsta.com/blog/xmlrpc-php/#what-is-xmlrpcphp\" target=\"_blank\">XML-RPC</a>. Also disables trackbacks and pingbacks."
+msgstr "Bảo vệ trang web của bạn khỏi các cuộc tấn công brute force, DOS và DDOS thông qua <a href=\"https://kinsta.com/blog/xmlrpc-php/#what-is-xmlrpcphp\" target=\"_blank\">XML-RPC</a>. Cũng tắt trackbacks và pingbacks."
+
+#: classes/class-settings-sections-fields.php:2505
+msgid "Disable XML-RPC"
+msgstr "Tắt XML-RPC"
+
+#: classes/class-settings-sections-fields.php:2482
+msgid ""
+"Use a shortcode like the following examples to display an email address on the frontend of your site: \n"
+"        \t\t<ul>\n"
+"        \t\t\t<li><strong>[obfuscate email=\"john@example.com\"]</strong> to display the email on it's own line</li>\n"
+"        \t\t\t<li><strong>[obfuscate email=\"john@example.com\" display=\"inline\"]</strong> to show the email inline</li>\n"
+"        \t\t</ul>"
+msgstr ""
+"Sử dụng một mã ngắn như các ví dụ sau để hiển thị một địa chỉ email trên phía trước của trang web của bạn:\n"
+"<ul>\n"
+"<li><strong>[obfuscate email=\"john@example.com\"]</strong> để hiển thị email trên một dòng riêng</li>\n"
+"<li><strong>[obfuscate email=\"john@example.com\" display=\"inline\"]</strong> để hiển thị email trên cùng một dòng</li>\n"
+"</ul>"
+
+#: classes/class-settings-sections-fields.php:2474
+msgid "Obfuscate email address to prevent spam bots from harvesting them, but make it readable like a regular email address for human visitors."
+msgstr "Ẩn địa chỉ email để ngăn chặn các bot spam thu thập chúng, nhưng làm cho nó có thể đọc được giống như một địa chỉ email thông thường cho người truy cập."
+
+#: classes/class-settings-sections-fields.php:2464
+msgid "Email Address Obfuscator"
+msgstr "Mã hóa địa chỉ email"
+
+#: classes/class-settings-sections-fields.php:2454
+msgid "Obfuscate publicly exposed author page URLs that shows the user slugs / usernames, e.g. <em>sitename.com/author/username1/</em> into <em>sitename.com/author/a6r5b8ytu9gp34bv/</em>, and output 404 errors for the original URLs. Also obfuscates in /wp-json/wp/v2/users/ REST API endpoint."
+msgstr "Mã hóa các URL trang tác giả công khai hiển thị đường dẫn / tên người dùng, ví dụ: <em>tentrangweb.com/author/tennguoidung/</em> thành <em>tentrangweb.com/author/a6r5b8ytu9gp34bv/</em>, và hiển thị lỗi 404 cho các liên kết ban đầu. Cũng mã hóa trong điểm cuối REST API /wp-json/wp/v2/users/."
+
+#: classes/class-settings-sections-fields.php:2444
+msgid "Obfuscate Author Slugs"
+msgstr "Ẩn tên tác giả trong liên kết"
+
+#: classes/class-settings-sections-fields.php:2435
+msgid "Failed Login Attempts Log"
+msgstr "Nhật ký các lần đăng nhập thất bại"
+
+#: classes/class-settings-sections-fields.php:2422
+msgid "Failed login attempts:"
+msgstr "Số lần đăng nhập không thành công:"
+
+#: classes/class-settings-sections-fields.php:2374
+msgid "lockout(s) will block further login attempts for 24 hours"
+msgstr "khóa tài khoản sẽ chặn các lần đăng nhập tiếp theo trong 24 giờ"
+
+#: classes/class-settings-sections-fields.php:2350
+msgid "failed login attempts allowed before 15 minutes lockout"
+msgstr "số lần đăng nhập thất bại được phép trước khi bị khóa trong 15 phút"
+
+#: classes/class-settings-sections-fields.php:2329
+msgid "Prevent brute force attacks by limiting the number of failed login attempts allowed per IP address."
+msgstr "Ngăn chặn các cuộc tấn công mạnh bằng cách giới hạn số lần thử đăng nhập không thành công cho mỗi địa chỉ IP."
+
+#: classes/class-settings-sections-fields.php:2319
+msgid "Limit Login Attempts"
+msgstr "Hạn chế số lần đăng nhập"
+
+#: classes/class-settings-sections-fields.php:2245
+msgid "Disable <strong>block-based widgets settings screen</strong>. Restores the classic widgets settings screen when using a classic (non-block) theme. This has no effect on block themes."
+msgstr "Tắt <strong>trang cài đặt widget dựa trên block</strong>. Khôi phục trang cài đặt widget cổ điển khi sử dụng giao diện cổ điển (không phải block). Điều này không ảnh hưởng đến giao diện block."
+
+#: classes/class-settings-sections-fields.php:2228
+msgid "Disable <strong>jQuery Migrate</strong> script on the frontend, which should no longer be needed if your site uses modern theme and plugins."
+msgstr "Tắt script <strong>jQuery Migrate</strong> trên phía trước, điều này không cần thiết nữa nếu trang web của bạn sử dụng giao diện và plugin hiện đại."
+
+#: classes/class-settings-sections-fields.php:2211
+msgid "Disable <strong>emoji support for pages, posts and custom post types</strong> on the admin and frontend. The support is primarily useful for older browsers that do not have native support for it. Most modern browsers across different OSes and devices now have native support for it."
+msgstr "Tắt <strong>hỗ trợ emoji cho Trang, bài viết và loại bài viết tùy chỉnh</strong> trên trang quản trị và trang người dùng. Hỗ trợ này chủ yếu hữu ích cho các trình duyệt cũ không có hỗ trợ tự nhiên cho nó. Hầu hết các trình duyệt hiện đại trên các hệ điều hành và thiết bị khác nhau hiện đã có hỗ trợ tự nhiên cho nó."
+
+#: classes/class-settings-sections-fields.php:2194
+msgid "Disable loading of <strong>Dashicons CSS and JS files</strong> on the front-end for public site visitors. This might break the layout or design of custom forms, including custom login forms, if they depend on Dashicons. Make sure to check those forms after disabling."
+msgstr "Tắt việc tải <strong>file CSS và JS của Dashicons</strong> trên phía trước cho khách truy cập trang web công cộng. Điều này có thể làm hỏng bố cục hoặc thiết kế của các form tùy chỉnh, bao gồm các form đăng nhập tùy chỉnh, nếu chúng phụ thuộc vào Dashicons. Hãy đảm bảo kiểm tra những form đó sau khi tắt."
+
+#: classes/class-settings-sections-fields.php:2177
+msgid "Disable the default <strong>WordPress shortlink &lt;link&gt; tag</strong> in &lt;head&gt;. Ignored by search engines and has minimal practical use case. Usually, a dedicated shortlink plugin or service is preferred that allows for nice names in the short links and tracking of clicks when sharing the link on social media."
+msgstr "Tắt thẻ <strong>liên kết mặc định của WordPress &lt;link&gt;</strong> trong &lt;head&gt;. Bị bỏ qua bởi các công cụ tìm kiếm và ít khi được sử dụng trong thực tế. Thông thường, việc sử dụng một plugin hoặc dịch vụ riêng biệt cho việc tạo liên kết ngắn được ưa chuộng, cho phép sử dụng tên ngắn đẹp và theo dõi số lượt click khi chia sẻ liên kết trên mạng xã hội."
+
+#: classes/class-settings-sections-fields.php:2160
+msgid "Disable the <strong>Really Simple Discovery (RSD) &lt;link&gt; tag</strong> in &lt;head&gt;. It's not needed if your site is not using pingback or remote (XML-RPC) client to manage posts."
+msgstr "Tắt thẻ <strong>Liên kết (link) Really Simple Discovery (RSD)</strong> trong &lt;head&gt;. Không cần thiết nếu trang web của bạn không sử dụng pingback hoặc client từ xa (XML-RPC) để quản lý bài viết."
+
+#: classes/class-settings-sections-fields.php:2143
+msgid "Disable the <strong>Windows Live Writer (WLW) manifest &lt;link&gt; tag</strong> in &lt;head&gt;. The WLW app was discontinued in 2017."
+msgstr "Tắt thẻ <strong>Windows Live Writer (WLW) manifest &lt;link&gt;</strong> trong &lt;head&gt;. Ứng dụng WLW đã ngừng hoạt động từ năm 2017."
+
+#: classes/class-settings-sections-fields.php:2126
+msgid "Disable <strong>version number</strong> on static resource URLs referenced in &lt;head&gt;, which can disclose WordPress version number. Older versions(s) might contain unpatched security loophole(s). Applies to non-logged-in view of pages. This will also increase cacheability of static assets, but may have unintended consequences. Make sure you know what you are doing."
+msgstr "Tắt <strong>phiên bản số</strong> trên URL tài nguyên tĩnh được tham chiếu trong &lt;head&gt;, có thể tiết lộ số phiên bản WordPress. Các phiên bản cũ có thể chứa lỗ hổng bảo mật chưa được vá. Áp dụng cho trang không đăng nhập. Điều này cũng sẽ tăng khả năng lưu trữ tài nguyên tĩnh vào bộ nhớ cache, nhưng có thể gây ra hậu quả không mong muốn. Hãy chắc chắn rằng bạn biết bạn đang làm gì."
+
+#: classes/class-settings-sections-fields.php:2092
+msgid "Disable the <strong>generator &lt;meta&gt; tag</strong> in &lt;head&gt;, which discloses the WordPress version number. Older versions(s) might contain unpatched security loophole(s)."
+msgstr "Tắt thẻ <strong>generator &lt;meta&gt;</strong> trong &lt;head&gt;, để ngăn tiết lộ phiên bản WordPress. Các phiên bản cũ có thể chứa lỗ hổng bảo mật chưa được vá."
+
+#: classes/class-settings-sections-fields.php:2073
+msgid "Prevent smaller components from running or loading. Make the site more secure, load slightly faster and be more optimized for crawling by search engines."
+msgstr "Ngăn các thành phần nhỏ chạy hoặc tải. Làm cho trang web an toàn hơn, tải nhanh hơn một chút và tối ưu hơn cho việc lục lọi bởi các công cụ tìm kiếm."
+
+#: classes/class-settings-sections-fields.php:2063
+msgid "Disable Smaller Components"
+msgstr "Tắt các thành phần nhỏ hơn"
+
+#: classes/class-settings-sections-fields.php:2052
+msgid "Completely disable core, theme and plugin updates and auto-updates. Will also disable update checks, notices and emails."
+msgstr "Tắt hoàn toàn cập nhật và cập nhật tự động cho core, giao diện và plugin. Cũng sẽ tắt kiểm tra cập nhật, thông báo và email."
+
+#: classes/class-settings-sections-fields.php:2042
+msgid "Disable All Updates"
+msgstr "Tắt tất cả cập nhật"
+
+#: classes/class-settings-sections-fields.php:2031
+msgid "Disable all RSS, Atom and RDF feeds. This includes feeds for posts, categories, tags, comments, authors and search. Also removes traces of feed URLs from &lt;head&gt;."
+msgstr "Tắt tất cả các nguồn cấp dữ liệu RSS, Atom và RDF. Điều này bao gồm cả nguồn cấp dữ liệu cho bài viết, danh mục, thẻ, bình luận, tác giả và tìm kiếm. Cũng xoá bỏ các dấu vết của URL nguồn cấp dữ liệu từ &lt;head&gt;."
+
+#: classes/class-settings-sections-fields.php:2021
+msgid "Disable Feeds"
+msgstr "Tắt cấp dữ liệu"
+
+#: classes/class-settings-sections-fields.php:2010
+msgid "Disable REST API access for non-authenticated users and remove URL traces from &lt;head&gt;, HTTP headers and WP RSD endpoint."
+msgstr "Tắt truy cập REST API cho người dùng chưa xác thực và gỡ bỏ dấu vết URL từ &lt;đầu trang&gt;, các tiêu đề HTTP và điểm cuối WP RSD."
+
+#: classes/class-settings-sections-fields.php:2000
+msgid "Disable REST API"
+msgstr "Tắt REST API"
+
+#: classes/class-settings-sections-fields.php:1966
+msgid "Disable comments for some or all public post types. When disabled, existing comments will also be hidden on the frontend."
+msgstr "Tắt bình luận cho một số hoặc tất cả các loại nội dung công khai. Khi tắt, các bình luận hiện có cũng sẽ bị ẩn trên giao diện người dùng."
+
+#: classes/class-settings-sections-fields.php:1956
+msgid "Disable Comments"
+msgstr "Tắt bình luận"
+
+#: classes/class-settings-sections-fields.php:1947
+msgid "Also disable frontend block styles / CSS files for the selected post types."
+msgstr "Tắt cả các kiểu block và file CSS phía trước cho các loại bài viết đã chọn."
+
+#: classes/class-settings-sections-fields.php:1895
+msgid "Disable Gutenberg"
+msgstr "Tắt chỉnh sửa khối"
+
+#: classes/class-settings-sections-fields.php:1859
+msgid "Easily edit and validate your <a href=\"/robots.txt\" target=\"_blank\">robots.txt</a> content."
+msgstr "Dễ dàng sửa và xác minh nội dung của bạn <a href=\"/robots.txt\" target=\"_blank\">robots.txt</a>."
+
+#: classes/class-settings-sections-fields.php:1849
+msgid "Manage robots.txt"
+msgstr "Quản lý tập tin robots.txt"
+
+#: classes/class-settings-sections-fields.php:1817
+#: classes/class-settings-sections-fields.php:1840
+#: classes/class-settings-sections-fields.php:1883
+msgid "Validate with:"
+msgstr "Xác thực bằng:"
+
+#: classes/class-settings-sections-fields.php:1816
+msgid "<strong>Your ads.txt content:</strong>"
+msgstr "<strong>Nội dung của bạn ads.txt:</strong>"
+
+#: classes/class-settings-sections-fields.php:1792
+msgid "Easily edit and validate your <a href=\"/ads.txt\" target=\"_blank\">ads.txt</a> and <a href=\"/app-ads.txt\" target=\"_blank\">app-ads.txt</a> content."
+msgstr "Dễ dàng sửa và xác minh nội dung của bạn <a href=\"/ads.txt\" target=\"_blank\">ads.txt</a> và <a href=\"/app-ads.txt\" target=\"_blank\">app-ads.txt</a>."
+
+#: classes/class-settings-sections-fields.php:1782
+msgid "Manage ads.txt and app-ads.txt"
+msgstr "Quản lý tập tin ads.txt và app-ads.txt"
+
+#: classes/class-settings-sections-fields.php:1746
+msgid "Add custom &lt;body&gt; class(es) on the singular view of some or all public post types. Compatible with classes already added using <a href=\"https://wordpress.org/plugins/wp-custom-body-class\" target=\"_blank\">Custom Body Class plugin</a>."
+msgstr "Thêm lớp tùy chỉnh &lt;body&gt; trên chế độ xem đơn của một số hoặc tất cả các loại bài đăng công cộng. Tương thích với các lớp đã được thêm bằng plugin <a href=\"https://wordpress.org/plugins/wp-custom-body-class\" target=\"_blank\">Custom Body Class</a>."
+
+#: classes/class-settings-sections-fields.php:1736
+msgid "Custom Body Class"
+msgstr "Tùy chỉnh lớp nội dung chính"
+
+#: classes/class-settings-sections-fields.php:1706
+msgid "Default is 10. Larger number insert code closer to &lt;/body&gt;"
+msgstr "Mặc định là 10. Số lớn hơn sẽ chèn mã gần hơn vào &lt;/body&gt;"
+
+#: classes/class-settings-sections-fields.php:1700
+msgid "<strong>Code to insert in footer section before &lt;/body&gt; with the priority of</strong>"
+msgstr "<strong>Mã để chèn vào phần chân trang trước &lt;/body&gt; với độ ưu tiên của</strong>"
+
+#: classes/class-settings-sections-fields.php:1661
+msgid "Default is 10. Smaller number insert code closer to &lt;body&gt;"
+msgstr "Mặc định là 10. Số nhỏ hơn chèn mã gần &lt;body&gt;"
+
+#: classes/class-settings-sections-fields.php:1655
+msgid "<strong>Code to insert after &lt;body&gt; with the priority of</strong>"
+msgstr "<strong>Mã để chèn sau thẻ &lt;body&gt; với độ ưu tiên của</strong>"
+
+#: classes/class-settings-sections-fields.php:1616
+msgid "Default is 10. Larger number insert code closer to &lt;/head&gt;"
+msgstr "Mặc định là 10. Số lớn hơn sẽ chèn mã gần hơn với &lt;/head&gt;"
+
+#: classes/class-settings-sections-fields.php:1610
+msgid "<strong>Code to insert before &lt;/head&gt; with the priority of</strong>"
+msgstr "<strong>Mã để chèn trước &lt;/head&gt; với độ ưu tiên của</strong>"
+
+#: classes/class-settings-sections-fields.php:1590
+msgid "Easily insert &lt;meta&gt;, &lt;link&gt;, &lt;script&gt; and &lt;style&gt; tags, Google Analytics, Tag Manager, AdSense, Ads Conversion and Optimize code, Facebook, TikTok and Twitter pixels, etc."
+msgstr "Dễ dàng chèn thẻ &lt;meta&gt;, &lt;liên kết&gt;, &lt;script&gt; và &lt;style&gt;, Google Analytics, Tag Manager, AdSense, mã chuyển đổi quảng cáo và tối ưu hóa, Facebook, TikTok và Twitter pixels, v.v."
+
+#. translators: keep &lt;head&gt; &lt;body&gt; &lt;footer&gt; as is in the
+#. translation
+#: classes/class-settings-sections-fields.php:1580
+msgid "Insert &lt;head&gt;, &lt;body&gt; and &lt;footer&gt; Code"
+msgstr "Chèn mã &lt;head&gt;, &lt;body&gt; và &lt;chân trang&gt;"
+
+#: classes/class-settings-sections-fields.php:1547
+msgid "Add custom CSS on all frontend pages for all user roles."
+msgstr "Thêm CSS tùy chỉnh trên tất cả các trang người dùng cho tất cả các vai trò."
+
+#: classes/class-settings-sections-fields.php:1537
+msgid "Custom Frontend CSS"
+msgstr "Tùy chỉnh CSS người dùng"
+
+#: classes/class-settings-sections-fields.php:1505
+msgid "Add custom CSS on all admin pages for all user roles."
+msgstr "Thêm CSS tùy chỉnh trên tất cả các trang admin cho tất cả các vai trò người dùng."
+
+#: classes/class-settings-sections-fields.php:1495
+msgid "Custom Admin CSS"
+msgstr "Tùy chỉnh CSS của Admin"
+
+#: classes/class-settings-sections-fields.php:1441
+msgid "Set custom redirect URL for all or some user roles after logout."
+msgstr "Thiết lập URL chuyển hướng tùy chỉnh cho tất cả hoặc một số vai trò người dùng sau khi đăng xuất."
+
+#: classes/class-settings-sections-fields.php:1431
+msgid "Redirect After Logout"
+msgstr "Chuyển hướng sau đăng xuất"
+
+#: classes/class-settings-sections-fields.php:1397
+#: classes/class-settings-sections-fields.php:1462
+msgid "for:"
+msgstr "cho:"
+
+#: classes/class-settings-sections-fields.php:1386
+#: classes/class-settings-sections-fields.php:1451
+msgid "Redirect to:"
+msgstr "Chuyển hướng đến:"
+
+#: classes/class-settings-sections-fields.php:1376
+msgid "Set custom redirect URL for all or some user roles after login."
+msgstr "Thiết lập URL chuyển hướng tùy chỉnh cho tất cả hoặc một số vai trò người dùng sau khi đăng nhập."
+
+#: classes/class-settings-sections-fields.php:1366
+msgid "Redirect After Login"
+msgstr "Chuyển hướng sau khi đăng nhập"
+
+#: classes/class-settings-sections-fields.php:1334
+msgid "Log when users on the site last logged in and display the date and time in the users list table."
+msgstr "Ghi lại khi người dùng trên trang web đã đăng nhập lần cuối và hiển thị ngày và giờ trong bảng danh sách người dùng."
+
+#: classes/class-settings-sections-fields.php:1324
+msgid "Last Login Column"
+msgstr "Cột đăng nhập lần cuối"
+
+#: classes/class-settings-sections-fields.php:1313
+msgid "Enable log in, log out and dynamic log in/out menu item for addition to any menu."
+msgstr "Bật đăng nhập, đăng xuất và mục menu đăng nhập/đăng xuất động để thêm vào bất kỳ menu nào."
+
+#: classes/class-settings-sections-fields.php:1303
+msgid "Log In/Out Menu"
+msgstr "Menu đăng nhập/đăng xuất"
+
+#: classes/class-settings-sections-fields.php:1278
+msgid "Site Identity on Login Page"
+msgstr "Thông tin trang web trên Trang đăng nhập"
+
+#: classes/class-settings-sections-fields.php:1267
+msgid "Email address only"
+msgstr "Chỉ email"
+
+#: classes/class-settings-sections-fields.php:1266
+msgid "Username only"
+msgstr "Chỉ tên người dùng"
+
+#: classes/class-settings-sections-fields.php:1247
+msgid "Restrict login ID to username or email address only."
+msgstr "Hãy hạn chế ID đăng nhập chỉ cho tên người dùng hoặc địa chỉ email."
+
+#: classes/class-settings-sections-fields.php:1237
+msgid "Login ID Type"
+msgstr "Loại ID đăng nhập"
+
+#: classes/class-settings-sections-fields.php:1228
+msgid "<div class=\"asenha-warning\">This feature <strong>only works for/with the default WordPress login page</strong>. It does not support using custom login page you manually created with a page builder or with another plugin.<br /><br />It's also <strong>not yet compatible with two-factor authentication (2FA) methods</strong>. If you use a 2FA plugin, please use the change login URL feature bundled in that plugin, or use another plugin that is compatible with it.<br /><br />And obviously, to improve security, please <strong>use something other than 'login'</strong> for the custom login slug.</div>"
+msgstr "<div class=\"asenha-warning\">Tính năng này <strong>chỉ hoạt động cho/trên trang đăng nhập mặc định của WordPress.</strong>. Nó không hỗ trợ việc sử dụng trang đăng nhập tùy chỉnh mà bạn tạo thủ công bằng trình xây dựng trang hoặc với một plugin khác.<br /><br />Nó cũng<strong>chưa tương thích với các phương pháp xác thực hai bước (2FA)</strong>. Nếu bạn sử dụng một plugin 2FA, vui lòng sử dụng tính năng thay đổi URL đăng nhập đi kèm trong plugin đó, hoặc sử dụng một plugin khác tương thích với nó.<br /><br />Và rõ ràng, để cải thiện bảo mật, hãy <strong>sử dụng một cái gì đó khác ngoài 'đăng nhập'</strong> cho slug đăng nhập tùy chỉnh.</div>"
+
+#: classes/class-settings-sections-fields.php:1200
+msgid "New login URL:"
+msgstr "URL đăng nhập mới:"
+
+#: classes/class-settings-sections-fields.php:1176
+msgid "Change Login URL"
+msgstr "Thay đổi URL đăng nhập"
+
+#. translators: %s is the WordPress version number
+#: classes/class-settings-sections-fields.php:1160
+msgid "Default text is: <em>Version %s</em>"
+msgstr "Văn bản mặc định là: <em>Phiên bản %s</em>"
+
+#: classes/class-settings-sections-fields.php:1145
+msgid "Right Side"
+msgstr "Bên phải"
+
+#: classes/class-settings-sections-fields.php:1120
+msgid "Default text is: <em>Thank you for creating with <a href=\"https://wordpress.org/\">WordPress</a></em>."
+msgstr "Văn bản mặc định là: <em>Cảm ơn bạn đã tạo ra với <a href=\"https://wordpress.org/\">WordPress</a></em>."
+
+#: classes/class-settings-sections-fields.php:1108
+msgid "Left Side"
+msgstr "Bên trái"
+
+#: classes/class-settings-sections-fields.php:1080
+msgid "Customize the text you see on the footer of wp-admin pages other than this ASE settings page."
+msgstr "Tuỳ chỉnh văn bản bạn thấy trên chân trang của các trang wp-admin ngoại trừ trang cài đặt ASE này."
+
+#: classes/class-settings-sections-fields.php:1070
+msgid "Custom Admin Footer Text"
+msgstr "Tùy chỉnh văn bản chân trang quản trị"
+
+#: classes/class-settings-sections-fields.php:1061
+msgid "Display active / activated plugins at the top of the Installed Plugins list. Useful when your site has many deactivated plugins for testing or development purposes."
+msgstr "Hiển thị các plugin đang hoạt động / đã kích hoạt ở đầu danh sách Plugin Đã Cài. Hữu ích khi trang web của bạn có nhiều plugin bị tắt để kiểm tra hoặc phát triển."
+
+#: classes/class-settings-sections-fields.php:1061
+msgid "Display Active Plugins First"
+msgstr "Hiển thị Plugin đã kích hoạt trước"
+
+#: classes/class-settings-sections-fields.php:1004
+msgid "Remove tags column (for posts)"
+msgstr "Xóa cột thẻ (cho bài viết)"
+
+#: classes/class-settings-sections-fields.php:986
+msgid "Remove comments column"
+msgstr "Xóa cột bình luận"
+
+#: classes/class-settings-sections-fields.php:950
+msgid "Show ID in action rows along with links for Edit, View, etc."
+msgstr "Hiển thị ID trong hàng cùng với các liên kết cho Sửa, Xem, v.v."
+
+#: classes/class-settings-sections-fields.php:932
+msgid "Show file size column in media library"
+msgstr "Hiển thị cột kích thước tệp trong Thư viện Media."
+
+#: classes/class-settings-sections-fields.php:914
+msgid "Show ID column"
+msgstr "Hiển thị cột ID"
+
+#: classes/class-settings-sections-fields.php:878
+msgid "Show excerpt column"
+msgstr "Hiển thị cột tóm tắt"
+
+#: classes/class-settings-sections-fields.php:860
+msgid "Show featured image column"
+msgstr "Hiển thị cột ảnh đại diện"
+
+#: classes/class-settings-sections-fields.php:840
+msgid "Improve the usefulness of listing pages for various post types and taxonomies, media, comments and users by adding / removing columns and elements."
+msgstr "Nâng cao tính hữu ích của các trang danh sách cho các loại bài viết và phân loại khác nhau, media, bình luận và người dùng bằng cách thêm / xóa cột và các phần tử."
+
+#: classes/class-settings-sections-fields.php:830
+msgid "Enhance List Tables"
+msgstr "Cải thiện bảng danh sách"
+
+#: classes/class-settings-sections-fields.php:792
+msgid "Customize the order of the admin menu and optionally change menu item title or hide some items."
+msgstr "Tuỳ chỉnh thứ tự của menu quản trị và tuỳ chọn thay đổi tiêu đề mục menu hoặc ẩn một số mục."
+
+#: classes/class-settings-sections-fields.php:783
+msgid "Admin Menu Organizer"
+msgstr "Tùy chỉnh Menu quản trị"
+
+#: classes/class-settings-sections-fields.php:761
+msgid "(Default is 160px)"
+msgstr "Mặc định là 160px"
+
+#: classes/class-settings-sections-fields.php:760
+msgid "Set width to"
+msgstr "Đặt chiều rộng thành"
+
+#: classes/class-settings-sections-fields.php:741
+msgid "Give the admin menu more room to better accommodate wider items."
+msgstr "Để cho menu quản trị có thêm không gian để phù hợp tốt hơn với các mục rộng hơn."
+
+#: classes/class-settings-sections-fields.php:731
+msgid "Wider Admin Menu"
+msgstr "Menu quản trị rộng hơn"
+
+#: classes/class-settings-sections-fields.php:687
+msgid "Hide Admin Bar"
+msgstr "Ẩn thanh quản trị"
+
+#: classes/class-settings-sections-fields.php:684
+msgid "Hide admin bar on the frontend for all or some user roles."
+msgstr "Ẩn thanh quản trị trên giao diện người dùng cho tất cả hoặc một số vai trò người dùng."
+
+#: classes/class-settings-sections-fields.php:630
+msgid "Clean up and speed up the dashboard by completely disabling some or all widgets. Disabled widgets won't load any assets nor show up under Screen Options."
+msgstr "Để dọn dẹp và tăng tốc độ cho bảng điều khiển, bạn có thể tắt hoàn toàn một số hoặc tất cả các widget. Các widget đã tắt sẽ không tải bất kỳ tài nguyên nào và cũng sẽ không xuất hiện dưới tuỳ chọn màn hình."
+
+#: classes/class-settings-sections-fields.php:620
+msgid "Disable Dashboard Widgets"
+msgstr "Tắt tiện ích trang quản trị"
+
+#: classes/class-settings-sections-fields.php:609
+msgid "Clean up admin pages by moving notices into a separate panel easily accessible via the admin bar."
+msgstr "Dọn dẹp trang quản trị bằng cách di chuyển thông báo vào một bảng riêng biệt có thể truy cập dễ dàng qua thanh quản trị."
+
+#: classes/class-settings-sections-fields.php:599
+msgid "Hide Admin Notices"
+msgstr "Ẩn thông báo quản trị viên"
+
+#: classes/class-settings-sections-fields.php:588
+msgid "Remove the Help tab and drawer"
+msgstr "Xóa tab trợ giúp"
+
+#: classes/class-settings-sections-fields.php:571
+msgid "Remove 'Howdy'"
+msgstr "Xóa 'Xin chào'"
+
+#: classes/class-settings-sections-fields.php:554
+msgid "Remove new content menu"
+msgstr "Xóa menu tạo mới"
+
+#: classes/class-settings-sections-fields.php:537
+msgid "Remove comments counter/link"
+msgstr "Gỡ bỏ đếm số lượng bình luận/Liên kết"
+
+#: classes/class-settings-sections-fields.php:520
+msgid "Remove updates counter/link"
+msgstr "Xóa bộ đếm/liên kết cập nhật"
+
+#: classes/class-settings-sections-fields.php:503
+msgid "Remove customize menu"
+msgstr "Xóa menu tuỳ chỉnh"
+
+#: classes/class-settings-sections-fields.php:469
+msgid "Remove WordPress logo/menu"
+msgstr "Xóa Logo/menu WordPress"
+
+#: classes/class-settings-sections-fields.php:450
+msgid "Remove various elements from the admin bar."
+msgstr "Gỡ bỏ các phần tử khác nhau khỏi thanh quản trị."
+
+#: classes/class-settings-sections-fields.php:440
+msgid "Clean Up Admin Bar"
+msgstr "Dọn thanh quản trị"
+
+#: classes/class-settings-sections-fields.php:428
+msgid "Trigger publishing of scheduled posts of all types marked with \"missed schedule\", anytime the site is visited."
+msgstr "Kích hoạt việc đăng tất cả các bài viết được lên lịch với tất cả các loại được đánh dấu là \"lỡ hẹn\", bất kỳ lúc nào trang web được truy cập."
+
+#: classes/class-settings-sections-fields.php:418
+msgid "Auto-Publish Posts with Missed Schedule"
+msgstr "Đăng tự động bài viết với lịch trình bị bỏ lỡ"
+
+#: classes/class-settings-sections-fields.php:407
+msgid "Allow custom navigation menu items to have links that open in new browser tab via target=\"_blank\" attribute. The rel=\"noopener noreferrer nofollow\" attribute will also be added for enhanced security and SEO benefits."
+msgstr "Cho phép thêm mục menu điều hướng tùy chỉnh có liên kết mở trong tab trình duyệt mới thông qua thuộc tính target=\"_blank\". Thuộc tính rel=\"noopener noreferrer nofollow\" cũng sẽ được thêm vào để tăng cường bảo mật và lợi ích SEO."
+
+#: classes/class-settings-sections-fields.php:397
+msgid "Allow Custom Navigation Menu Items to Open in New Tab"
+msgstr "Cho phép tất cả các mục menu điều hướng tùy chỉnh mở trong tab mới"
+
+#: classes/class-settings-sections-fields.php:386
+msgid "Force all links to external sites in post content, where <a href=\"https://developer.wordpress.org/reference/hooks/the_content/\" target=\"_blank\">the_content</a> hook is used, to open in new browser tab via target=\"_blank\" attribute. The rel=\"noopener noreferrer nofollow\" attribute will also be added for enhanced security and SEO benefits."
+msgstr "Buộc tất cả các liên kết đến các trang web bên ngoài trong nội dung bài viết, khi sử dụng hook <a href=\"https://developer.wordpress.org/reference/hooks/the_content/\" target=\"_blank\">the_content</a>, mở trong tab mới của trình duyệt thông qua thuộc tính target=\"_blank\". Thuộc tính rel=\"noopener noreferrer nofollow\" cũng sẽ được thêm vào để tăng cường bảo mật và lợi ích SEO."
+
+#: classes/class-settings-sections-fields.php:376
+msgid "Open All External Links in New Tab"
+msgstr "Mở tất cả Liên kết bên ngoài trong tab mới"
+
+#: classes/class-settings-sections-fields.php:340
+msgid "Enable pages, posts and/or custom post types to have permalinks that point to external URLs. The rel=\"noopener noreferrer nofollow\" attribute will also be added for enhanced security and SEO benefits. Compatible with links added using <a href=\"https://wordpress.org/plugins/page-links-to/\" target=\"_blank\">Page Links To</a>."
+msgstr "Bật cho các trang, bài viết và/hoặc nội dung tùy chỉnh có thể có đường dẫn trỏ đến liên kết bên ngoài. Thuộc tính rel=\"noopener noreferrer nofollow\" cũng sẽ được thêm vào để tăng cường bảo mật và lợi ích SEO. Tương thích với các liên kết được thêm bằng cách sử dụng plugin <a href=\"https://wordpress.org/plugins/page-links-to/\" target=\"_blank\">Page Links To</a>."
+
+#: classes/class-settings-sections-fields.php:330
+msgid "External Permalinks"
+msgstr "Đường dẫn cố định bên ngoài"
+
+#: classes/class-settings-sections-fields.php:262
+msgid "Allow some or all user roles to upload SVG files, which will then be sanitized to keep things secure."
+msgstr "Cho phép một số hoặc tất cả vai trò người dùng tải lên file SVG, sau đó sẽ được làm sạch để đảm bảo an toàn."
+
+#: classes/class-settings-sections-fields.php:252
+msgid "SVG Upload"
+msgstr "Tải lên SVG"
+
+#: classes/class-settings-sections-fields.php:1043
+msgid "Re-enable infinite scrolling in the grid view of the media library. Useful for scrolling through a large library."
+msgstr "Bật lại chế độ cuộn vô hạn trong chế độ xem lưới của thư viện Media. Hữu ích khi xem qua một thư viện lớn."
+
+#: classes/class-settings-sections-fields.php:1043
+msgid "Media Library Infinite Scrolling"
+msgstr "Thư viện Media cuộn vô hạn"
+
+#: classes/class-settings-sections-fields.php:243
+msgid "Easily replace any type of media file with a new one while retaining the existing media ID, publish date and file name. So, no existing links will break."
+msgstr "Dễ dàng thay thế bất kỳ loại tệp tin Media nào bằng một tệp mới trong khi vẫn giữ nguyên ID Media, ngày đăng và tên tệp hiện tại. Vì vậy, không có liên kết hiện tại nào bị hỏng."
+
+#: classes/class-settings-sections-fields.php:233
+msgid "Media Replacement"
+msgstr "Thay thế tệp tin Media"
+
+#: classes/class-settings-sections-fields.php:195
+msgid "Enable custom ordering of various \"hierarchical\" content types or those supporting \"page attributes\". A new 'Order' sub-menu will appear for enabled content type(s). The \"All {Posts}\" list page for enabled post types in wp-admin will automatically use the custom order."
+msgstr "Bật việc sắp xếp tùy chỉnh của các loại nội dung \"phân cấp\" khác nhau hoặc các loại nội dung hỗ trợ \"thuộc tính trang\". Một menu con 'Sắp xếp thứ tự' mới sẽ xuất hiện cho các loại nội dung đã bật. Trang danh sách \"Tất cả {Bài viết}\" cho các loại bài viết đã bật trong trang quản trị wp-admin sẽ tự động sử dụng thứ tự tùy chỉnh."
+
+#: classes/class-settings-sections-fields.php:185
+msgid "Content Order"
+msgstr "Sắp xếp nội dung"
+
+#: classes/class-settings-sections-fields.php:174
+msgid "List view"
+msgstr "Xem danh sách"
+
+#: classes/class-settings-sections-fields.php:173
+msgid "Edit screen"
+msgstr "Màn hình chỉnh sửa"
+
+#: classes/class-settings-sections-fields.php:163
+msgid "After duplication, redirect to:"
+msgstr "Sau khi sao chép, chuyển hướng đến:"
+
+#: classes/class-settings-sections-fields.php:153
+msgid "Enable one-click duplication of pages, posts and custom posts. The corresponding taxonomy terms and post meta will also be duplicated."
+msgstr "Bật tính năng sao chép trang, bài viết và nội dung tùy chỉnh  chỉ với một lần nhấp. Các mục phân loại và meta của bài viết tương ứng cũng sẽ được sao chép."
+
+#: classes/class-settings-sections-fields.php:143
+msgid "Content Duplication"
+msgstr "Sao chép nội dung"
+
+#: classes/class-settings-fields-render.php:1151
+msgid "Full AVIF support requires that your server / hosting has <a href=\"https://php.watch/versions/8.1/gd-avif\" target=\"_blank\">GD extension</a> compiled with AVIF support in PHP 8.1 or greater, or, <a href=\"https://web.archive.org/web/20240104012918/https://avif.io/blog/tutorials/imagemagick/\" target=\"_blank\">ImageMagick 7.0.25 or greater</a> installed. Without either, you can still upload AVIF files but without auto-generation of the smaller thumbnail sizes. A majority of <a href=\"https://web.archive.org/web/20231207174740/https://avif.io/blog/articles/avif-browser-support/\" target=\"_blank\">modern desktop and mobile browsers</a> support the display of AVIF files."
+msgstr "Hỗ trợ AVIF đầy đủ yêu cầu máy chủ / hosting của bạn phải có <a href=\"https://php.watch/versions/8.1/gd-avif\" target=\"_blank\">phần mở rộng GD</a> được biên dịch với hỗ trợ AVIF trong PHP 8.1 hoặc cao hơn, hoặc, <a href=\"https://avif.io/blog/tutorials/imagemagick/\" target=\"_blank\">ImageMagick 7.0.25 hoặc cao hơn</a> đã được cài đặt. Nếu không có cả hai, bạn vẫn có thể tải lên các tệp AVIF nhưng không có tự động tạo ra các kích thước ảnh thu nhỏ nhỏ hơn. Đa số <a href=\"https://avif.io/blog/articles/avif-browser-support/\" target=\"_blank\">trình duyệt hiện đại trên máy tính để bàn và di động</a> hỗ trợ hiển thị các tệp AVIF."
+
+#: classes/class-settings-fields-render.php:1145
+msgid "AVIF Support Status"
+msgstr "Trạng thái Hỗ trợ AVIF"
+
+#: classes/class-settings-fields-render.php:1121
+#: classes/class-settings-fields-render.php:1142
+msgid "Not available"
+msgstr "Không có sẵn"
+
+#: classes/class-settings-fields-render.php:1116
+msgid "without AVIF support"
+msgstr "không hỗ trợ AVIF"
+
+#: classes/class-settings-fields-render.php:1114
+msgid "with AVIF support"
+msgstr "với hỗ trợ AVIF"
+
+#: classes/class-settings-fields-render.php:1052
+msgid "Last Attempt On"
+msgstr "Cuộc thử cuối cùng"
+
+#: classes/class-settings-fields-render.php:1049
+msgid "Attempts<br />Lockouts"
+msgstr "Cố gắng<br />Khóa"
+
+#: classes/class-settings-fields-render.php:1046
+msgid "IP Address<br />Last Username"
+msgstr "Địa chỉ IP<br />Tên người dùng cuối cùng"
+
+#: classes/class-settings-fields-render.php:756
+#: classes/class-settings-fields-render.php:869
+#: classes/class-settings-fields-render.php:959
+msgid "Hide until toggled"
+msgstr "Ẩn cho đến khi được đổi"
+
+#: classes/class-settings-fields-render.php:651
+msgid "Drag and drop menu items to the desired position. Optionally change 3rd party plugin/theme's menu item titles or hide some items until toggled by clicking \"Show All\" at the bottom of the admin menu."
+msgstr "Kéo và thả các mục menu vào vị trí mong muốn. Tuỳ chọn thay đổi tiêu đề của mục menu của plugin/giao diện bên thứ ba hoặc ẩn một số mục cho đến khi nhấp chuột vào \"Hiển thị tất cả\" ở dưới cùng của menu admin."
+
+#: classes/class-settings-sections-fields.php:1212
+msgid "e.g. backend"
+msgstr "ví dụ: backend"
+
+#. Author URI of the plugin
+#: admin-site-enhancements.php
+msgid "https://www.wpase.com/author-uri"
+msgstr "https://www.wpase.com/author-uri"
+
+#. Author of the plugin
+#: admin-site-enhancements.php
+msgid "wpase.com"
+msgstr "wpase.com"
+
+#. Plugin URI of the plugin
+#: admin-site-enhancements.php
+msgid "https://www.wpase.com/plugin-uri"
+msgstr "https://www.wpase.com/plugin-uri"
+
+#. Plugin Name of the plugin
+#: admin-site-enhancements.php
+msgid "Admin and Site Enhancements (ASE)"
+msgstr "Tối ưu quản trị và trang web (ASE)"
+
+#: settings.php:104
+msgid "Translate"
+msgstr "Dịch"
+
+#: settings.php:101
+msgid "Feedback"
+msgstr "Phản hồi"
+
+#: settings.php:98
+msgid "Review"
+msgstr "Đánh giá"
+
+#. Description of the plugin
+#: admin-site-enhancements.php
+msgid "Easily enable enhancements and features that usually require multiple plugins."
+msgstr "Dễ dàng bật tối ưu quản trị Web và Các tính năng mà thường cần cài nhiều plugin mới làm được."
